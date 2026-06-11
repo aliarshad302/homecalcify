@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "PowerShell(node --version)",
+      "PowerShell(npm --version)",
+      "PowerShell(Get-PSDrive C | Select-Object Used,Free,@{n='FreeGB';e={[math]::Round\\($_.Free/1GB,2\\)}}; \"---\"; $f=\"C:\\\\Users\\\\Ali\\\\Desktop\\\\Homecalfiy\\\\src\\\\config\\\\calculators\\\\concrete.ts\"; \\(Get-Item $f\\).Length; \\(Get-Content $f | Measure-Object -Line\\).Lines)",
+      "PowerShell($d = Get-PSDrive C; \"Free MB: {0}\" -f [math]::Round\\($d.Free/1MB,1\\); try { $v = & node --version 2>$null; \"node: $v\" } catch { \"node: NOT FOUND\" }; try { $nv = & npm --version 2>$null; \"npm: $nv\" } catch { \"npm: NOT FOUND\" })"
+    ]
+  }
+}
