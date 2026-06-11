@@ -13,6 +13,9 @@ export const flooringCalculator: CalculatorConfig = {
   description:
     "Calculate the square footage, number of boxes, and cost of flooring for any room, with a waste allowance.",
   supportsUnits: true,
+  cpc: "high",
+  keywords: ["flooring calculator", "flooring cost", "how much flooring do i need", "laminate flooring cost", "flooring cost per square foot"],
+  howtoAction: "install-flooring",
   fields: [
     { id: "length", label: "Room length", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 15", min: 0, step: 0.1 },
     { id: "width", label: "Room width", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 12", min: 0, step: 0.1 },

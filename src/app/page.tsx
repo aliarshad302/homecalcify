@@ -16,7 +16,7 @@ import { guides } from "@/config/guides";
 import { faqSchema, jsonLd } from "@/lib/schema";
 
 export const metadata: Metadata = {
-  title: "HomeCalcify — Free Home Improvement Calculators for Materials & Cost",
+  title: { absolute: "HomeCalcify — Free Home Improvement Calculators for Materials & Cost" },
   description:
     "Free home improvement calculators for concrete, roofing, flooring, tile, paint, drywall, mulch, and asphalt. Estimate materials, quantities, bags, and cost in seconds — accurate and contractor-reviewed.",
   keywords: [

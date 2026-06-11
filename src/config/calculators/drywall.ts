@@ -13,6 +13,9 @@ export const drywallCalculator: CalculatorConfig = {
   description:
     "Estimate drywall sheets, joint compound, tape, and screws for a room from its dimensions.",
   supportsUnits: false,
+  cpc: "medium",
+  keywords: ["drywall calculator", "drywall cost", "how much drywall do i need", "sheetrock cost", "drywall installation cost"],
+  howtoAction: "hang-drywall",
   fields: [
     { id: "length", label: "Room length", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 14", min: 0, step: 0.1 },
     { id: "width", label: "Room width", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 12", min: 0, step: 0.1 },

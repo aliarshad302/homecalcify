@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 import { calculators } from "@/config/calculators";
 import { hubs } from "@/config/hubs";
 import { guides } from "@/config/guides";
+import { pageRegistry } from "@/lib/programmatic/registry";
 import { SITE_URL } from "@/lib/schema";
 
 /** Auto-generated sitemap derived from the content registries. */
@@ -45,5 +46,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...calcPages, ...hubPages, ...guidePages];
+  // Programmatic cluster pages (cost / guide / how-to / location).
+  const programmaticPages: MetadataRoute.Sitemap = pageRegistry.map((p) => ({
+    url: url(`/${p.slug}/`),
+    lastModified: now,
+    changeFrequency: "monthly",
+    priority: p.type === "cost" ? 0.7 : p.type === "location" ? 0.5 : 0.6,
+  }));
+
+  return [...staticPages, ...calcPages, ...hubPages, ...guidePages, ...programmaticPages];
 }

@@ -13,6 +13,9 @@ export const paintCalculator: CalculatorConfig = {
   description:
     "Estimate how many gallons or liters of paint you need for a room, including coats and openings.",
   supportsUnits: true,
+  cpc: "medium",
+  keywords: ["paint calculator", "paint cost", "how much paint do i need", "interior painting cost", "cost to paint a room"],
+  howtoAction: "paint-a-room",
   fields: [
     { id: "length", label: "Room length", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 12", min: 0, step: 0.1 },
     { id: "width", label: "Room width", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 12", min: 0, step: 0.1 },

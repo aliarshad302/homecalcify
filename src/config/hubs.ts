@@ -166,6 +166,46 @@ export const hubs: HubConfig[] = [
     relatedHubs: ["concrete", "landscaping"],
     seo: { title: "Driveway & Asphalt Paving Calculators | HomeCalcify" },
   },
+  {
+    slug: "insulation",
+    name: "Insulation",
+    description: "Insulation calculators and cost guides for walls, attics, and whole homes.",
+    intro:
+      "Cut energy bills with the right amount of insulation. Our insulation calculators turn your wall or attic area into material and installed-cost estimates for fiberglass batts, blown-in cellulose, and spray foam — with the R-value targets for your climate. Explore the tools and cost guides below.",
+    whatYouCanEstimate: [
+      "Square footage to insulate",
+      "Cost by insulation type",
+      "R-value targets for walls and attics",
+      "Batt, blown-in, and spray foam pricing",
+    ],
+    faqs: [
+      { question: "How much insulation do I need?", answer: "Measure the area and target the right R-value — R-38 to R-60 in attics and R-13 to R-21 in walls, depending on climate." },
+      { question: "What is the cheapest insulation?", answer: "Fiberglass batts have the lowest installed cost; blown-in is best for attics and retrofits." },
+    ],
+    guides: [],
+    relatedHubs: ["drywall", "siding"],
+    seo: { title: "Insulation Calculators & Cost Guides | HomeCalcify" },
+  },
+  {
+    slug: "siding",
+    name: "Siding",
+    description: "Siding calculators and cost guides for vinyl, fiber-cement, and more.",
+    intro:
+      "Get your exterior right with accurate siding estimates. Our siding calculators convert your home's dimensions into wall area, squares, and installed cost across vinyl, fiber-cement, engineered wood, and brick. Find the tools and material cost comparisons below.",
+    whatYouCanEstimate: [
+      "Wall area and siding squares",
+      "Cost by siding material",
+      "Waste for corners and openings",
+      "Vinyl vs fiber-cement pricing",
+    ],
+    faqs: [
+      { question: "How much siding do I need?", answer: "Multiply the wall perimeter by height, add 10–15% for waste, and divide by 100 for squares." },
+      { question: "What is the cheapest siding?", answer: "Vinyl siding has the lowest installed cost and the least maintenance." },
+    ],
+    guides: [],
+    relatedHubs: ["insulation", "roofing"],
+    seo: { title: "Siding Calculators & Cost Guides | HomeCalcify" },
+  },
 ];
 
 export const hubMap: Record<string, HubConfig> = Object.fromEntries(

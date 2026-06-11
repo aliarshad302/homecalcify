@@ -1,5 +1,6 @@
 import type { CalculatorConfig, CalculatorResult } from "@/lib/calculator/types";
 import { toNumber } from "@/lib/calculator/engine";
+import { buildStates } from "@/config/locations";
 
 /**
  * Asphalt calculator (imperial). Volume × density → tons of hot-mix asphalt.
@@ -13,6 +14,16 @@ export const asphaltCalculator: CalculatorConfig = {
   description:
     "Estimate the tons of asphalt needed to pave a driveway or lot at any thickness.",
   supportsUnits: false,
+  cpc: "high",
+  keywords: ["asphalt calculator", "asphalt cost", "how much asphalt do i need", "asphalt driveway cost", "blacktop cost per ton"],
+  howtoAction: "pave-a-driveway",
+  locations: buildStates({
+    texas: "Texas's flat terrain and many paving contractors keep asphalt driveway prices below the national average, though summer heat demands a proper mix design.",
+    california: "California's labor costs, permits, and stormwater rules push asphalt paving above average, especially in coastal counties.",
+    florida: "Florida's sandy subgrades often need extra base preparation before paving; prices sit near the national average, with heat affecting scheduling.",
+    "new-york": "New York's freeze-thaw cycles and union labor raise asphalt costs, and driveways need a deep, well-drained base to resist heaving.",
+    illinois: "Illinois winters are hard on asphalt, so a thick compacted base and timely sealcoating matter; labor runs slightly above the national average.",
+  }),
   fields: [
     { id: "length", label: "Length", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 50", min: 0, step: 0.1 },
     { id: "width", label: "Width", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 12", min: 0, step: 0.1 },

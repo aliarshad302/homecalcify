@@ -1,5 +1,6 @@
 import type { CalculatorConfig, CalculatorResult } from "@/lib/calculator/types";
 import { toNumber } from "@/lib/calculator/engine";
+import { buildStates } from "@/config/locations";
 
 /**
  * Concrete slab calculator.
@@ -15,6 +16,20 @@ export const concreteCalculator: CalculatorConfig = {
   description:
     "Estimate the cubic yards (or meters) of concrete and the number of bags you need for a slab, footing, or patio.",
   supportsUnits: true,
+  cpc: "high",
+  keywords: ["concrete calculator", "concrete cost", "how much concrete do i need", "concrete slab cost", "ready mix concrete price"],
+  howtoAction: "pour-concrete",
+  howto: {
+    tools: ["Tape measure", "Wheelbarrow", "Screed board", "Bull float", "Edging trowel"],
+    materials: ["Ready-mix or bagged concrete", "Gravel base", "Rebar or wire mesh", "Form lumber & stakes"],
+  },
+  locations: buildStates({
+    texas: "Texas has abundant ready-mix suppliers and low labor costs, so slabs and driveways run below the national average — though expansive clay soils make a proper base and reinforcement essential.",
+    california: "California's high labor rates, permit fees, and seismic requirements push concrete costs well above average, especially in coastal metros.",
+    florida: "Florida's slab-on-grade construction means concrete is everywhere; prices sit near the national average, with extra for hurricane-rated reinforcement.",
+    "new-york": "New York's union labor and tight urban access raise concrete prices sharply, and winter pours need cold-weather admixtures and protection.",
+    illinois: "Illinois freeze-thaw winters require air-entrained concrete and footings below the frost line, with labor slightly above the national average.",
+  }),
   fields: [
     {
       id: "length",

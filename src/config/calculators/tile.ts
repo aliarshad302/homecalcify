@@ -12,6 +12,9 @@ export const tileCalculator: CalculatorConfig = {
   description:
     "Work out how many tiles you need for a floor or wall, including a cutting allowance.",
   supportsUnits: false,
+  cpc: "medium",
+  keywords: ["tile calculator", "tile cost", "how many tiles do i need", "tile flooring cost", "tile cost per square foot"],
+  howtoAction: "lay-tile",
   fields: [
     { id: "length", label: "Area length", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 10", min: 0, step: 0.1 },
     { id: "width", label: "Area width", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 8", min: 0, step: 0.1 },

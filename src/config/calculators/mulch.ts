@@ -14,6 +14,9 @@ export const mulchCalculator: CalculatorConfig = {
   description:
     "Find how many cubic yards or bags of mulch you need to cover a garden bed at any depth.",
   supportsUnits: true,
+  cpc: "low",
+  keywords: ["mulch calculator", "mulch cost", "how much mulch do i need", "bulk mulch price", "mulch coverage"],
+  howtoAction: "mulch-a-garden",
   fields: [
     { id: "length", label: "Bed length", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 20", min: 0, step: 0.1 },
     { id: "width", label: "Bed width", type: "number", unitLabel: { imperial: "ft", metric: "m" }, placeholder: "e.g. 4", min: 0, step: 0.1 },

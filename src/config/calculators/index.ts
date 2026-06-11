@@ -7,6 +7,9 @@ import { paintCalculator } from "./paint";
 import { roofingCalculator } from "./roofing";
 import { mulchCalculator } from "./mulch";
 import { asphaltCalculator } from "./asphalt";
+import { gravelCalculator } from "./gravel";
+import { insulationCalculator } from "./insulation";
+import { sidingCalculator } from "./siding";
 
 /**
  * Central calculator registry.
@@ -22,6 +25,9 @@ export const calculators: CalculatorConfig[] = [
   drywallCalculator,
   mulchCalculator,
   asphaltCalculator,
+  gravelCalculator,
+  insulationCalculator,
+  sidingCalculator,
 ];
 
 export const calculatorMap: Record<string, CalculatorConfig> = Object.fromEntries(

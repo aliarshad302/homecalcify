@@ -1,5 +1,6 @@
 import type { CalculatorConfig, CalculatorResult } from "@/lib/calculator/types";
 import { toNumber } from "@/lib/calculator/engine";
+import { buildStates } from "@/config/locations";
 
 /**
  * Roofing calculator (imperial). Footprint × pitch multiplier → roof area,
@@ -13,6 +14,20 @@ export const roofingCalculator: CalculatorConfig = {
   description:
     "Estimate roof area, squares, and shingle bundles from your home's footprint and roof pitch.",
   supportsUnits: false,
+  cpc: "high",
+  keywords: ["roofing calculator", "roof cost", "how much does a roof cost", "shingle calculator", "roof replacement cost"],
+  howtoAction: "measure-a-roof",
+  howto: {
+    tools: ["Tape measure", "Ladder", "Roofing nailer", "Chalk line", "Utility knife"],
+    materials: ["Shingles", "Underlayment", "Drip edge", "Ridge cap", "Flashing & nails"],
+  },
+  locations: buildStates({
+    texas: "Texas heat and hailstorms drive frequent roof replacements; impact-resistant shingles are popular, and ample labor keeps installed prices below average.",
+    california: "California's labor costs, fire-zone material rules, and permits make roofing one of the pricier states, with cool-roof requirements in some areas.",
+    florida: "Florida's strict hurricane codes require wind-rated shingles, secondary water barriers, and enhanced nailing, adding cost above the base material price.",
+    "new-york": "New York's snow loads and union labor raise roofing costs, and ice-and-water shield at the eaves is essential in the northern climate.",
+    illinois: "Illinois storms and freeze-thaw cycles favor architectural shingles with strong wind ratings; labor runs slightly above the national average.",
+  }),
   fields: [
     { id: "length", label: "Footprint length", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 40", min: 0, step: 0.1 },
     { id: "width", label: "Footprint width", type: "number", unitLabel: { imperial: "ft" }, placeholder: "e.g. 30", min: 0, step: 0.1 },

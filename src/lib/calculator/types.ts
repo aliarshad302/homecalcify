@@ -109,4 +109,33 @@ export interface CalculatorConfig {
     title?: string;
     description?: string;
   };
+
+  // ── Programmatic SEO engine fields ──────────────────────────────
+  /** Estimated keyword CPC tier — drives build priority & ad density. */
+  cpc?: "high" | "medium" | "low";
+  /** Target keyword cluster for this calculator's page set. */
+  keywords?: string[];
+  /** Which cluster pages to generate. `main` is always generated. */
+  intents?: PageIntent[];
+  /** Slug action for the how-to page → /how-to-{action}/ (e.g. "pour-concrete"). */
+  howtoAction?: string;
+  /** Optional how-to materials/tools/tips (reused by the how-to template). */
+  howto?: { tools?: string[]; materials?: string[]; tips?: string[] };
+  /** Regional data — ONLY add states with real, differentiated numbers. */
+  locations?: LocationData[];
+}
+
+/** Cluster page intents generated per calculator (beyond the main page). */
+export type PageIntent = "cost" | "guide" | "howto";
+
+/** Real regional differentiation that keeps location pages from being thin. */
+export interface LocationData {
+  /** URL slug, e.g. "texas". */
+  slug: string;
+  /** Display name, e.g. "Texas". */
+  name: string;
+  /** Cost multiplier vs national average (1.0 = national). */
+  priceMultiplier: number;
+  /** Unique local context: labor, permits, climate, suppliers. */
+  note: string;
 }
