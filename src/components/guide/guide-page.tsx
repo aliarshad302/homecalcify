@@ -6,6 +6,7 @@ import { AdSlot } from "@/components/ads/ad-slot";
 import { Card } from "@/components/ui/card";
 import { getCalculator } from "@/config/calculators";
 import { getGuide, type GuideConfig } from "@/config/guides";
+import { AuthorByline, AboutAuthor } from "@/components/calculator/author-byline";
 import { articleSchema, breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
 /** "How Long Does Concrete Cure" → "how-long-does-concrete-cure" */
@@ -48,16 +49,14 @@ export function GuidePage({ guide }: { guide: GuideConfig }) {
 
       <header>
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{guide.title}</h1>
-        <p className="mt-2 text-sm text-muted-foreground">
-          Updated{" "}
-          <time dateTime={guide.updated}>
-            {new Date(guide.updated).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
-          </time>
-        </p>
         <p className="mt-4 rounded-lg border-l-4 border-l-primary bg-muted/40 p-4 text-lg leading-relaxed">
           {guide.answer}
         </p>
       </header>
+
+      <div className="mt-4">
+        <AuthorByline updated={guide.updated} />
+      </div>
 
       {guide.intro && guide.intro.length > 0 && (
         <div className="prose-page mt-6">
@@ -171,6 +170,8 @@ export function GuidePage({ guide }: { guide: GuideConfig }) {
           </ul>
         </section>
       )}
+
+      <AboutAuthor />
     </article>
   );
 }

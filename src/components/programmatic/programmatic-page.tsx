@@ -6,6 +6,7 @@ import { RelatedGrid } from "@/components/calculator/related-grid";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { Card } from "@/components/ui/card";
+import { AboutAuthor } from "@/components/calculator/author-byline";
 import { getCalculator } from "@/config/calculators";
 import {
   clusterLinks,
@@ -126,6 +127,8 @@ export function ProgrammaticPage({ page }: { page: PageDescriptor }) {
           <RelatedGrid slugs={related} />
         </section>
       )}
+
+      <AboutAuthor />
     </article>
   );
 }

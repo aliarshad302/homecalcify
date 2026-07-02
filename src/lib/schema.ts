@@ -96,7 +96,11 @@ export function articleSchema(opts: {
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
     dateModified: opts.updated,
-    author: { "@type": "Organization", name: SITE_NAME },
+    author: {
+      "@type": "Organization",
+      name: "HomeCalcify Editorial Team",
+      url: `${SITE_URL}/about-us/`,
+    },
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,

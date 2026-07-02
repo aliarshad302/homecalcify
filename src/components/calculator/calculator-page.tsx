@@ -1,7 +1,7 @@
 import { CalculatorShell } from "./calculator-shell";
 import { FaqBlock } from "./faq-block";
 import { RelatedGrid } from "./related-grid";
-import { AuthorByline } from "./author-byline";
+import { AuthorByline, AboutAuthor } from "./author-byline";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { Breadcrumbs } from "@/components/layout/breadcrumbs";
 import { Card } from "@/components/ui/card";
@@ -20,7 +20,6 @@ interface CalculatorPageProps {
   config: CalculatorConfig;
   /** ISO date for the last-updated byline. */
   updated?: string;
-  reviewer?: string;
 }
 
 /**
@@ -31,7 +30,6 @@ interface CalculatorPageProps {
 export function CalculatorPage({
   config,
   updated = new Date().toISOString(),
-  reviewer,
 }: CalculatorPageProps) {
   const { content } = config;
   const crumbs = [
@@ -249,10 +247,11 @@ export function CalculatorPage({
         </div>
       </section>
 
-      {/* EEAT byline */}
+      {/* EEAT byline + about the author */}
       <div className="mt-10">
-        <AuthorByline reviewer={reviewer} updated={updated} />
+        <AuthorByline updated={updated} />
       </div>
+      <AboutAuthor />
     </article>
   );
 }
