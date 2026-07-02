@@ -15,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/calculators/"), lastModified: now, changeFrequency: "weekly", priority: 0.9 },
     { url: url("/categories/"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
     { url: url("/guides/"), lastModified: now, changeFrequency: "weekly", priority: 0.8 },
+    { url: url("/home-improvement-cost-report/"), lastModified: now, changeFrequency: "monthly", priority: 0.7 },
     { url: url("/about-us/"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },
     { url: url("/contact-us/"), lastModified: now, changeFrequency: "yearly", priority: 0.3 },
     { url: url("/our-experts/"), lastModified: now, changeFrequency: "yearly", priority: 0.4 },

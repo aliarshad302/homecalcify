@@ -29,7 +29,7 @@ const COLUMNS: { title: string; links: { label: string; href: string }[] }[] = [
     title: "Guides",
     links: [
       { label: "How much concrete do I need?", href: "/guides/how-much-concrete-do-i-need/" },
-      { label: "Coverage charts", href: "/guides/" },
+      { label: "2026 Home Improvement Cost Report", href: "/home-improvement-cost-report/" },
       { label: "Cost guides", href: "/guides/" },
       { label: "Material comparisons", href: "/guides/" },
       { label: "View all guides", href: "/guides/" },
