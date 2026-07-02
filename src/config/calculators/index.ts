@@ -2,6 +2,7 @@ import type { CalculatorConfig } from "@/lib/calculator/types";
 import { concreteCalculator } from "./concrete";
 import { drywallCalculator } from "./drywall";
 import { flooringCalculator } from "./flooring";
+import { vinylPlankCalculator } from "./vinyl-plank";
 import { tileCalculator } from "./tile";
 import { paintCalculator } from "./paint";
 import { roofingCalculator } from "./roofing";
@@ -22,6 +23,7 @@ export const calculators: CalculatorConfig[] = [
   roofingCalculator,
   roofPitchCalculator,
   flooringCalculator,
+  vinylPlankCalculator,
   tileCalculator,
   paintCalculator,
   drywallCalculator,

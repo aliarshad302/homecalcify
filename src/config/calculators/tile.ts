@@ -106,8 +106,12 @@ export const tileCalculator: CalculatorConfig = {
       { question: "How many 12x12 tiles in a square foot?", answer: "Exactly one. A 12×12 inch tile covers one square foot, making the math simple." },
       { question: "Should I account for grout lines?", answer: "Grout lines slightly reduce tile count, but the waste allowance more than covers it — don't subtract them." },
     ],
-    related: ["flooring-calculator", "paint-calculator"],
-    guides: [{ title: "How Many Tiles Do I Need?", href: "/guides/how-many-tiles-do-i-need/" }],
+    related: ["flooring-calculator", "vinyl-plank-flooring-calculator"],
+    guides: [
+      { title: "How Many Tiles Do I Need?", href: "/guides/how-many-tiles-do-i-need/" },
+      { title: "Cost to Tile a Bathroom", href: "/guides/cost-to-tile-a-bathroom/" },
+      { title: "Cost to Tile a Floor", href: "/guides/cost-to-tile-a-floor/" },
+    ],
   },
   seo: {
     title: "Tile Calculator — How Many Tiles Do I Need | HomeCalcify",

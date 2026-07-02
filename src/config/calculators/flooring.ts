@@ -93,8 +93,13 @@ export const flooringCalculator: CalculatorConfig = {
       { question: "How do I measure an irregular room?", answer: "Break it into rectangles, calculate each area separately, then add them together before applying waste." },
       { question: "How many boxes of flooring do I need?", answer: "Divide your total square footage (with waste) by the coverage printed on the box, then round up." },
     ],
-    related: ["tile-calculator", "concrete-calculator"],
-    guides: [{ title: "Flooring Installation Cost Guide", href: "/guides/flooring-installation-cost/" }],
+    related: ["vinyl-plank-flooring-calculator", "tile-calculator", "concrete-calculator"],
+    guides: [
+      { title: "Flooring Installation Cost", href: "/guides/flooring-installation-cost/" },
+      { title: "How to Measure a Room for Flooring", href: "/guides/how-to-measure-a-room-for-flooring/" },
+      { title: "Laminate vs Vinyl Plank Flooring", href: "/guides/laminate-vs-vinyl-plank-flooring/" },
+      { title: "Hardwood Flooring Cost", href: "/guides/hardwood-flooring-cost/" },
+    ],
   },
   seo: {
     title: "Flooring Calculator — Square Footage, Boxes & Cost | HomeCalcify",
