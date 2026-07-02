@@ -4631,6 +4631,244 @@ export const guides: GuideConfig[] = [
       "how-much-concrete-do-i-need",
       "concrete-bag-coverage-chart",
     ],
+  },
+  {
+    slug: "deck-cost",
+    title: "How Much Does a Deck Cost? (2026)",
+    description: "Deck costs by size and material — pressure-treated, cedar, and composite — plus what drives the price.",
+    answer:
+      "A deck costs about $15 to $45 per square foot installed. Pressure-treated wood runs $15–$25, cedar $20–$35, and composite $25–$45. A typical 300 sq ft deck costs roughly $4,500 to $13,500, with framing, railings, and height all affecting the total.",
+    intro: [
+      "A deck is one of the best-value ways to add usable outdoor living space, but the cost swings widely by material and size. Pressure-treated wood is cheapest up front; composite costs more but barely needs maintenance.",
+      "This guide breaks down deck costs in 2026 by size and material, and shows how to estimate the boards and framing you'll need.",
+    ],
+    keyTakeaways: [
+      "Decks cost about $15–$45 per square foot installed.",
+      "Pressure-treated wood is cheapest; composite costs most but lasts longest.",
+      "A 300 sq ft deck runs roughly $4,500–$13,500.",
+      "Framing, railings, stairs, and height add to the base cost.",
+      "Most decks need a permit and proper footings.",
+    ],
+    category: "decking",
+    updated: "2026-07-02",
+    sections: [
+      {
+        heading: "Deck cost by material",
+        table: {
+          columns: ["Decking", "Cost per ft² (installed)", "Lifespan"],
+          rows: [
+            ["Pressure-treated wood", "$15 – $25", "10–15 yrs"],
+            ["Cedar / redwood", "$20 – $35", "15–20 yrs"],
+            ["Composite", "$25 – $45", "25–30 yrs"],
+            ["PVC / capped", "$30 – $60", "30+ yrs"],
+          ],
+        },
+      },
+      {
+        heading: "Deck cost by size",
+        table: {
+          columns: ["Deck size", "Area", "Installed cost"],
+          rows: [
+            ["10 × 12 ft", "120 ft²", "$1,800 – $5,400"],
+            ["16 × 12 ft", "192 ft²", "$2,900 – $8,600"],
+            ["20 × 15 ft", "300 ft²", "$4,500 – $13,500"],
+          ],
+        },
+      },
+      {
+        heading: "What drives the price",
+        bullets: [
+          "Material — composite and PVC cost far more than pressure-treated wood",
+          "Height — raised decks need more framing, posts, and railings",
+          "Railings and stairs — a significant add-on beyond the deck surface",
+          "Footings and permits — required in most areas",
+          "Labor rates — the biggest regional variable",
+        ],
+      },
+      {
+        heading: "Estimate your deck materials",
+        paragraphs: ["Our deck calculator turns your deck dimensions and board size into the number of boards, joists, screws, and an installed-cost range."],
+      },
+    ],
+    calculatorSlug: "deck-calculator",
+    faqs: [
+      { question: "How much does a 300 square foot deck cost?", answer: "About $4,500–$13,500 installed, depending on whether you use pressure-treated wood or composite." },
+      { question: "Is composite decking worth the extra cost?", answer: "For low maintenance and a 25–30 year lifespan, often yes — it avoids the sealing and staining that wood needs." },
+      { question: "How much does a deck cost per square foot?", answer: "Roughly $15–$25/ft² for pressure-treated wood and $25–$45/ft² for composite, installed." },
+    ],
+    related: ["composite-vs-wood-decking", "how-much-concrete-do-i-need"],
+  },
+  {
+    slug: "composite-vs-wood-decking",
+    title: "Composite vs Wood Decking: Cost & Comparison",
+    description: "Compare composite and wood decking on cost, maintenance, lifespan, and looks.",
+    answer:
+      "Wood decking costs less up front ($15–$35 per square foot installed) but needs annual sealing and lasts 10–20 years. Composite costs more ($25–$45) but needs almost no maintenance and lasts 25–30 years. Wood wins on price and natural feel; composite wins on longevity and low upkeep.",
+    intro: [
+      "The biggest decision in any deck build is composite vs wood. They look increasingly similar, but they differ sharply on up-front cost, maintenance, and how long they last.",
+      "This guide compares composite and wood decking so you can pick the right one for your budget and how much upkeep you're willing to do.",
+    ],
+    keyTakeaways: [
+      "Wood: $15–$35/ft²; composite: $25–$45/ft² installed.",
+      "Wood needs annual sealing/staining; composite needs almost none.",
+      "Composite lasts 25–30 years vs 10–20 for wood.",
+      "Wood feels natural and is cheaper; composite is lower-maintenance.",
+      "Composite can get hot in direct sun; wood can splinter and rot.",
+    ],
+    category: "decking",
+    updated: "2026-07-02",
+    sections: [
+      {
+        heading: "Side-by-side comparison",
+        table: {
+          columns: ["Factor", "Wood", "Composite"],
+          rows: [
+            ["Cost installed", "$15 – $35/ft²", "$25 – $45/ft²"],
+            ["Maintenance", "Seal yearly", "Wash occasionally"],
+            ["Lifespan", "10–20 yrs", "25–30 yrs"],
+            ["Look & feel", "Natural wood", "Uniform, wood-like"],
+          ],
+        },
+      },
+      {
+        heading: "When to choose wood",
+        paragraphs: ["Choose wood for the lowest up-front cost and a genuine natural look. Pressure-treated is cheapest; cedar and redwood cost more but resist rot better. The trade-off is yearly sealing or staining."],
+      },
+      {
+        heading: "When to choose composite",
+        paragraphs: ["Choose composite if you'd rather not maintain the deck. It resists rot, insects, and fading, needs only occasional washing, and lasts decades — worth the higher price for many homeowners."],
+      },
+      {
+        heading: "Estimate either option",
+        paragraphs: ["Our deck calculator estimates boards, framing, and cost for whichever material you choose."],
+      },
+    ],
+    calculatorSlug: "deck-calculator",
+    faqs: [
+      { question: "Is composite decking cheaper than wood?", answer: "No — composite costs more up front, but it saves on maintenance and lasts longer, so it can be cheaper over its lifetime." },
+      { question: "Does composite decking get hot?", answer: "Yes, dark composite can get hot in direct sun. Lighter colors and shaded areas stay cooler." },
+      { question: "Which lasts longer, wood or composite?", answer: "Composite lasts 25–30 years versus 10–20 for wood, with far less maintenance." },
+    ],
+    related: ["deck-cost"],
+  },
+  {
+    slug: "fence-cost",
+    title: "How Much Does a Fence Cost? (2026)",
+    description: "Fence costs by material and length — wood, vinyl, chain link, and composite — plus what affects the price.",
+    answer:
+      "A fence costs about $15 to $45 per linear foot installed. Chain link runs $10–$20, wood $15–$30, vinyl $20–$40, and composite $25–$45. A typical 150 ft fence costs roughly $2,250 to $6,750, with height, terrain, and gates affecting the total.",
+    intro: [
+      "A new fence adds privacy, security, and curb appeal — but the cost depends heavily on the material and your yard. Chain link is cheapest; vinyl and composite cost more but need little upkeep.",
+      "This guide breaks down fence costs in 2026 by material and length, and shows how to estimate the posts and panels you'll need.",
+    ],
+    keyTakeaways: [
+      "Fences cost about $15–$45 per linear foot installed.",
+      "Chain link is cheapest; vinyl and composite cost most.",
+      "A 150 ft fence runs roughly $2,250–$6,750.",
+      "Height, terrain, gates, and post depth affect the price.",
+      "Each post needs about 2 bags of concrete.",
+    ],
+    category: "fencing",
+    updated: "2026-07-02",
+    sections: [
+      {
+        heading: "Fence cost by material",
+        table: {
+          columns: ["Material", "Cost per ft (installed)", "Lifespan"],
+          rows: [
+            ["Chain link", "$10 – $20", "15–20 yrs"],
+            ["Wood", "$15 – $30", "15–20 yrs"],
+            ["Vinyl", "$20 – $40", "20–30 yrs"],
+            ["Composite", "$25 – $45", "25–30 yrs"],
+          ],
+        },
+      },
+      {
+        heading: "Fence cost by length",
+        table: {
+          columns: ["Fence length", "Wood", "Vinyl"],
+          rows: [
+            ["100 ft", "$1,500 – $3,000", "$2,000 – $4,000"],
+            ["150 ft", "$2,250 – $4,500", "$3,000 – $6,000"],
+            ["300 ft", "$4,500 – $9,000", "$6,000 – $12,000"],
+          ],
+        },
+      },
+      {
+        heading: "What affects the price",
+        bullets: [
+          "Material — vinyl and composite cost more than wood or chain link",
+          "Height — a 6 ft privacy fence costs more than a 4 ft fence",
+          "Terrain — slopes and rocky soil raise labor and post costs",
+          "Gates — each gate adds hardware and heavier posts",
+          "Post depth — deeper holes need more concrete and digging",
+        ],
+      },
+      {
+        heading: "Estimate your fence materials",
+        paragraphs: ["Our fence calculator turns your fence length and post spacing into posts, sections, rails, concrete, and an installed-cost range."],
+      },
+    ],
+    calculatorSlug: "fence-calculator",
+    faqs: [
+      { question: "How much does a 150 ft fence cost?", answer: "About $2,250–$4,500 for wood or $3,000–$6,000 for vinyl, installed." },
+      { question: "What is the cheapest fence?", answer: "Chain link is the cheapest at $10–$20 per linear foot, though it offers little privacy." },
+      { question: "How much does a fence cost per foot?", answer: "Roughly $15–$30/ft for wood and $20–$40/ft for vinyl, installed." },
+    ],
+    related: ["wood-vs-vinyl-fence", "how-many-bags-of-concrete-for-a-fence-post"],
+  },
+  {
+    slug: "wood-vs-vinyl-fence",
+    title: "Wood vs Vinyl Fence: Cost & Comparison",
+    description: "Compare wood and vinyl fencing on cost, maintenance, lifespan, and looks.",
+    answer:
+      "Wood fencing costs less up front ($15–$30 per linear foot installed) but needs staining or sealing and lasts 15–20 years. Vinyl costs more ($20–$40) but needs almost no maintenance and lasts 20–30 years. Wood wins on price and looks; vinyl wins on upkeep and lifespan.",
+    intro: [
+      "Wood and vinyl are the two most popular privacy-fence materials, and choosing between them comes down to budget, maintenance, and looks.",
+      "This guide compares wood vs vinyl fencing on cost, upkeep, and durability so you can pick the right one for your yard.",
+    ],
+    keyTakeaways: [
+      "Wood: $15–$30/ft; vinyl: $20–$40/ft installed.",
+      "Wood needs sealing/staining; vinyl just needs washing.",
+      "Vinyl lasts 20–30 years vs 15–20 for wood.",
+      "Wood is cheaper and more natural; vinyl is lower-maintenance.",
+      "Both need posts set in concrete below the frost line.",
+    ],
+    category: "fencing",
+    updated: "2026-07-02",
+    sections: [
+      {
+        heading: "Side-by-side comparison",
+        table: {
+          columns: ["Factor", "Wood", "Vinyl"],
+          rows: [
+            ["Cost installed", "$15 – $30/ft", "$20 – $40/ft"],
+            ["Maintenance", "Seal/stain every 2–3 yrs", "Wash occasionally"],
+            ["Lifespan", "15–20 yrs", "20–30 yrs"],
+            ["Look", "Natural, customizable", "Uniform, clean"],
+          ],
+        },
+      },
+      {
+        heading: "When to choose wood",
+        paragraphs: ["Choose wood for the lowest up-front cost and a natural, customizable look you can stain any color. The trade-off is regular sealing and eventual replacement of warped or rotted boards."],
+      },
+      {
+        heading: "When to choose vinyl",
+        paragraphs: ["Choose vinyl if you want a fence you can forget about — it won't rot, warp, or need painting, and it lasts longer. It costs more up front and offers fewer style options than wood."],
+      },
+      {
+        heading: "Estimate either option",
+        paragraphs: ["Our fence calculator estimates posts, rails, concrete, and cost for whichever material you choose."],
+      },
+    ],
+    calculatorSlug: "fence-calculator",
+    faqs: [
+      { question: "Is vinyl fence cheaper than wood?", answer: "No — vinyl costs more up front, but it needs less maintenance and lasts longer, so it can be cheaper over time." },
+      { question: "Does vinyl fencing last longer than wood?", answer: "Yes, vinyl lasts 20–30 years versus 15–20 for wood, with almost no maintenance." },
+      { question: "Which is better, wood or vinyl fence?", answer: "Wood is cheaper and more natural; vinyl is lower-maintenance and longer-lasting. It depends on your budget and upkeep preference." },
+    ],
+    related: ["fence-cost"],
   }
 ];
 

@@ -16,6 +16,8 @@ import { asphaltCalculator } from "./asphalt";
 import { gravelCalculator } from "./gravel";
 import { insulationCalculator } from "./insulation";
 import { sidingCalculator } from "./siding";
+import { deckCalculator } from "./deck";
+import { fenceCalculator } from "./fence";
 
 /**
  * Central calculator registry.
@@ -40,6 +42,8 @@ export const calculators: CalculatorConfig[] = [
   gravelCalculator,
   insulationCalculator,
   sidingCalculator,
+  deckCalculator,
+  fenceCalculator,
 ];
 
 export const calculatorMap: Record<string, CalculatorConfig> = Object.fromEntries(

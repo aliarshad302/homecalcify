@@ -255,6 +255,52 @@ export const hubs: HubConfig[] = [
     relatedHubs: ["insulation", "roofing"],
     seo: { title: "Siding Calculators & Cost Guides | HomeCalcify" },
   },
+  {
+    slug: "decking",
+    name: "Decking",
+    description: "Deck calculators and cost guides for boards, framing, and materials.",
+    intro:
+      "Plan your deck build with accurate material estimates. Our deck calculator turns your dimensions and board size into deck boards, joists, screws, and an installed-cost range — for pressure-treated wood, cedar, or composite. Explore the tool and cost guides below.",
+    whatYouCanEstimate: [
+      "Deck boards and framing",
+      "Joists and fasteners",
+      "Cost by decking material",
+      "Wood vs composite pricing",
+    ],
+    faqs: [
+      { question: "How many deck boards do I need?", answer: "Divide the deck area by each board's coverage (width × length) and add 5–10% for waste — a 192 sq ft deck needs roughly 45–55 boards." },
+      { question: "How much does a deck cost?", answer: "About $15–$25 per square foot installed for pressure-treated wood and $25–$45 for composite." },
+    ],
+    guides: [
+      { title: "How Much Does a Deck Cost?", href: "/guides/deck-cost/" },
+      { title: "Composite vs Wood Decking", href: "/guides/composite-vs-wood-decking/" },
+    ],
+    relatedHubs: ["fencing", "concrete"],
+    seo: { title: "Deck Calculators & Cost Guides | HomeCalcify" },
+  },
+  {
+    slug: "fencing",
+    name: "Fencing",
+    description: "Fence calculators and cost guides for posts, panels, and materials.",
+    intro:
+      "Build your fence right with accurate material estimates. Our fence calculator turns your fence line and post spacing into posts, sections, rails, concrete, and an installed-cost range — for wood, vinyl, or chain link. Find the tool and cost comparisons below.",
+    whatYouCanEstimate: [
+      "Posts and sections",
+      "Rails and concrete for posts",
+      "Cost by fence material",
+      "Wood vs vinyl pricing",
+    ],
+    faqs: [
+      { question: "How many fence posts do I need?", answer: "Divide the fence length by the post spacing (usually 8 ft) and add one — a 150 ft fence needs about 20 posts." },
+      { question: "How much concrete per fence post?", answer: "About 2 bags of fast-setting concrete per post for a standard hole." },
+    ],
+    guides: [
+      { title: "How Much Does a Fence Cost?", href: "/guides/fence-cost/" },
+      { title: "Wood vs Vinyl Fence", href: "/guides/wood-vs-vinyl-fence/" },
+    ],
+    relatedHubs: ["decking", "concrete"],
+    seo: { title: "Fence Calculators & Cost Guides | HomeCalcify" },
+  },
 ];
 
 export const hubMap: Record<string, HubConfig> = Object.fromEntries(
