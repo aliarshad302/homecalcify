@@ -39,6 +39,11 @@ export const hubs: HubConfig[] = [
     guides: [
       { title: "How Much Concrete Do I Need?", href: "/guides/how-much-concrete-do-i-need/" },
       { title: "Concrete Bag Coverage Chart", href: "/guides/concrete-bag-coverage-chart/" },
+      { title: "Concrete Slab Cost", href: "/guides/concrete-slab-cost/" },
+      { title: "Concrete Driveway Cost", href: "/guides/concrete-driveway-cost/" },
+      { title: "Concrete Patio Cost", href: "/guides/concrete-patio-cost/" },
+      { title: "How Thick Should a Concrete Slab Be?", href: "/guides/how-thick-should-a-concrete-slab-be/" },
+      { title: "Bagged Concrete vs Ready Mix", href: "/guides/bagged-concrete-vs-ready-mix/" },
     ],
     relatedHubs: ["driveway-paving", "drywall"],
     seo: { title: "Concrete Calculators & Estimating Guides | HomeCalcify" },

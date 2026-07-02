@@ -4555,6 +4555,82 @@ export const guides: GuideConfig[] = [
       "spray-foam-vs-fiberglass-insulation",
       "how-much-concrete-do-i-need"
     ]
+  },
+  {
+    slug: "bagged-concrete-vs-ready-mix",
+    title: "Bagged Concrete vs Ready Mix: Which Should You Use?",
+    description:
+      "Compare bagged concrete and ready-mix delivery on cost, effort, and project size, with a clear break-even point.",
+    answer:
+      "Use bagged concrete for small jobs under about 1 cubic yard — post holes, small pads, and repairs — where mixing by hand is manageable. Order ready-mix for anything larger: it is cheaper per yard, arrives premixed and consistent, and avoids the cold joints that come from slow hand-mixing. The break-even point is roughly 1 cubic yard (about 45 80-lb bags).",
+    intro: [
+      "Once you know how much concrete your project needs, the next question is how to buy it: bags you mix yourself, or ready-mix delivered by truck. The right answer depends almost entirely on the volume — and getting it wrong means either endless mixing or paying for a delivery you didn't need.",
+      "This guide compares bagged concrete and ready-mix on cost, effort, quality, and project size, and gives you a simple rule for choosing between them.",
+    ],
+    keyTakeaways: [
+      "Bagged concrete suits small jobs under ~1 cubic yard.",
+      "Ready-mix is cheaper per yard and faster for larger pours.",
+      "The break-even is about 1 cubic yard (~45 80-lb bags).",
+      "Hand-mixing many bags risks weak cold joints between batches.",
+      "Ready-mix usually has delivery minimums and short-load fees.",
+    ],
+    category: "concrete",
+    updated: "2026-07-02",
+    sections: [
+      {
+        heading: "Bagged concrete vs ready mix at a glance",
+        paragraphs: [
+          "Both deliver the same finished concrete — the difference is how it's mixed and delivered, which changes the cost, effort, and consistency for your project.",
+        ],
+        table: {
+          columns: ["Factor", "Bagged concrete", "Ready mix"],
+          rows: [
+            ["Best for", "Under ~1 yd³", "1 yd³ and up"],
+            ["Cost", "$5–$7 per 80-lb bag", "$120–$165 per yd³ delivered"],
+            ["Effort", "Mix by hand/mixer", "Arrives premixed"],
+            ["Consistency", "Varies batch to batch", "Uniform, plant-mixed"],
+            ["Extra fees", "None", "Delivery + short-load fees"],
+          ],
+        },
+      },
+      {
+        heading: "When to use bagged concrete",
+        paragraphs: [
+          "Bagged concrete is the practical choice for small, spread-out, or hard-to-reach jobs: setting fence posts, pouring a small pad or footing, patching, or anywhere a truck can't easily deliver. You can mix one bag at a time and work at your own pace.",
+        ],
+        bullets: [
+          "Fence posts and mailbox posts",
+          "Small pads (AC units, sheds under ~80 ft²)",
+          "Footings and repairs",
+          "Jobs a mixer truck can't reach",
+        ],
+      },
+      {
+        heading: "When to order ready mix",
+        paragraphs: [
+          "For slabs, driveways, patios, and anything over about a cubic yard, ready-mix wins on both cost and quality. It arrives uniformly mixed, lets you pour continuously (avoiding weak cold joints), and works out cheaper per yard than buying dozens of bags. Expect a delivery minimum and a fee for short loads under a few yards.",
+        ],
+      },
+      {
+        heading: "The break-even point",
+        paragraphs: [
+          "A cubic yard of concrete is 27 cubic feet — about 45 80-lb bags. Mixing that many bags by hand is slow, tiring, and risks inconsistent strength. Once your project needs a cubic yard or more, ready-mix is almost always the better decision. Use the concrete calculator to find your exact volume, then compare the bag count to the ~1-yard threshold.",
+        ],
+      },
+    ],
+    calculatorSlug: "concrete-calculator",
+    faqs: [
+      { question: "Is bagged concrete cheaper than ready mix?", answer: "Only for small jobs. Under about a cubic yard, bags are convenient and cost-effective; above that, ready-mix is cheaper per yard and far less work." },
+      { question: "How many bags of concrete equal a yard of ready mix?", answer: "About 45 80-lb bags or 60 60-lb bags make one cubic yard (27 cubic feet)." },
+      { question: "Can you mix that many bags by hand?", answer: "You can, but mixing dozens of bags is slow and risks weak cold joints between batches. For a cubic yard or more, order ready-mix." },
+      { question: "Does ready mix have a minimum order?", answer: "Usually yes — most suppliers have a delivery minimum and charge a short-load fee for orders under a few cubic yards." },
+      { question: "Which is stronger, bagged or ready mix?", answer: "Both reach the same strength when mixed correctly, but ready-mix is more consistent because it's plant-mixed to spec." },
+    ],
+    related: [
+      "is-it-cheaper-to-pour-your-own-concrete",
+      "how-much-concrete-do-i-need",
+      "concrete-bag-coverage-chart",
+    ],
   }
 ];
 

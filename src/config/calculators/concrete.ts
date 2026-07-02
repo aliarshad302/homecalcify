@@ -215,6 +215,9 @@ export const concreteCalculator: CalculatorConfig = {
     guides: [
       { title: "How Much Concrete Do I Need?", href: "/guides/how-much-concrete-do-i-need/" },
       { title: "Concrete Bag Coverage Chart", href: "/guides/concrete-bag-coverage-chart/" },
+      { title: "Concrete Slab Cost", href: "/guides/concrete-slab-cost/" },
+      { title: "Concrete Driveway Cost", href: "/guides/concrete-driveway-cost/" },
+      { title: "Bagged Concrete vs Ready Mix", href: "/guides/bagged-concrete-vs-ready-mix/" },
     ],
   },
   seo: {
