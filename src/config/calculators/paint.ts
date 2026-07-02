@@ -105,8 +105,13 @@ export const paintCalculator: CalculatorConfig = {
       { question: "Do I need one coat or two?", answer: "Two coats is standard for durable, even color — especially over a different base color or fresh drywall." },
       { question: "Should I buy extra paint?", answer: "Yes, keep 5–10% extra for touch-ups and to ensure a consistent dye-lot match later." },
     ],
-    related: ["drywall-calculator", "flooring-calculator"],
-    guides: [{ title: "How Much Paint Do I Need?", href: "/guides/how-much-paint-do-i-need/" }],
+    related: ["exterior-paint-calculator", "drywall-calculator", "flooring-calculator"],
+    guides: [
+      { title: "How Much Paint Do I Need?", href: "/guides/how-much-paint-do-i-need/" },
+      { title: "Cost to Paint a House Interior", href: "/guides/cost-to-paint-a-house-interior/" },
+      { title: "How Many Coats of Paint Do You Need?", href: "/guides/how-many-coats-of-paint/" },
+      { title: "Best Paint Finish for Walls", href: "/guides/best-paint-finish-for-walls/" },
+    ],
   },
   seo: {
     title: "Paint Calculator — Gallons & Liters by Room | HomeCalcify",

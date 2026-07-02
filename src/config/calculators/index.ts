@@ -5,6 +5,7 @@ import { flooringCalculator } from "./flooring";
 import { vinylPlankCalculator } from "./vinyl-plank";
 import { tileCalculator } from "./tile";
 import { paintCalculator } from "./paint";
+import { exteriorPaintCalculator } from "./exterior-paint";
 import { roofingCalculator } from "./roofing";
 import { roofPitchCalculator } from "./roof-pitch";
 import { mulchCalculator } from "./mulch";
@@ -26,6 +27,7 @@ export const calculators: CalculatorConfig[] = [
   vinylPlankCalculator,
   tileCalculator,
   paintCalculator,
+  exteriorPaintCalculator,
   drywallCalculator,
   mulchCalculator,
   asphaltCalculator,
