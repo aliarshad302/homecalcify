@@ -8,3 +8,6 @@
 *.tsbuildinfo
 next-env.d.ts
 .DS_Store
+public_html/
+read-xlsx.ps1
+scripts/guides-data.json

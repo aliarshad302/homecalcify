@@ -13,7 +13,7 @@ export function organizationSchema(): Json[] {
       "@type": "Organization",
       name: SITE_NAME,
       url: SITE_URL,
-      logo: `${SITE_URL}/logo.png`,
+      logo: `${SITE_URL}/logo.svg`,
     },
     {
       "@context": "https://schema.org",
@@ -100,7 +100,7 @@ export function articleSchema(opts: {
     publisher: {
       "@type": "Organization",
       name: SITE_NAME,
-      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.png` },
+      logo: { "@type": "ImageObject", url: `${SITE_URL}/logo.svg` },
     },
   };
 }

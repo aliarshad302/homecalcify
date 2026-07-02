@@ -1,0 +1,28 @@
+# HomeCalcify
+
+> HomeCalcify provides free, accurate home improvement calculators and in-depth guides that help homeowners, DIYers, and contractors estimate materials, quantities, and costs for construction and renovation projects. Formulas are documented and based on industry-standard coverage rates and waste factors.
+
+## Calculators
+- [Concrete Calculator](https://homecalcify.com/concrete-calculator/): cubic yards, bags, and ready-mix cost for slabs, footings, and patios
+- [Roofing Calculator](https://homecalcify.com/roofing-calculator/): roof area, squares, and shingle bundles by footprint and pitch
+- [Flooring Calculator](https://homecalcify.com/flooring-calculator/): square footage, boxes, and cost with a waste allowance
+- [Tile Calculator](https://homecalcify.com/tile-calculator/): tile counts for floors and walls
+- [Paint Calculator](https://homecalcify.com/paint-calculator/): gallons or liters by room, coats, and openings
+- [Drywall Calculator](https://homecalcify.com/drywall-calculator/): sheets, joint compound, tape, and screws
+- [Mulch Calculator](https://homecalcify.com/mulch-calculator/): cubic yards and bags by bed size and depth
+- [Asphalt Calculator](https://homecalcify.com/asphalt-calculator/): tons of asphalt for a driveway
+- [Gravel Calculator](https://homecalcify.com/gravel-calculator/): cubic yards and tons for driveways and paths
+- [Insulation Calculator](https://homecalcify.com/insulation-calculator/): area and cost by insulation type
+- [Siding Calculator](https://homecalcify.com/siding-calculator/): wall area, squares, and installed cost
+
+## Guides
+- [All guides](https://homecalcify.com/guides/): 50+ long-form guides on material costs, how-to estimating, and project comparisons across concrete, roofing, flooring, painting, drywall, insulation, siding, and driveways.
+
+## About
+- [About HomeCalcify](https://homecalcify.com/about-us/)
+- [Methodology](https://homecalcify.com/methodology/): how the calculators are built and verified
+- [Sitemap](https://homecalcify.com/sitemap.xml)
+
+## Notes
+- Estimates are for planning and budgeting; users should confirm critical quantities with a supplier or licensed professional.
+- Prices are US national averages and vary by region.

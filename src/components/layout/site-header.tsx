@@ -1,6 +1,7 @@
 import Link from "next/link";
-import { Calculator, Search } from "lucide-react";
+import { Search } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { LogoMark } from "@/components/layout/logo";
 
 const NAV = [
   { label: "Calculators", href: "/calculators/" },
@@ -13,10 +14,8 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 w-full border-b bg-background/80 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container flex h-16 items-center justify-between gap-4">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="grid size-9 place-items-center rounded-md bg-primary text-primary-foreground">
-            <Calculator className="size-5" />
-          </span>
+        <Link href="/" className="flex items-center gap-2" aria-label="HomeCalcify home">
+          <LogoMark className="size-9 rounded-md" />
           <span className="font-display text-lg font-bold tracking-tight">
             Home<span className="text-primary">Calcify</span>
           </span>

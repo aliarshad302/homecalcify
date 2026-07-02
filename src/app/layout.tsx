@@ -18,8 +18,24 @@ export const metadata: Metadata = {
   description:
     "Free, accurate home improvement calculators for concrete, roofing, flooring, paint, and more. Estimate materials, bags, and cost in seconds.",
   alternates: { canonical: "/" },
+  keywords: [
+    "home improvement calculator",
+    "construction calculator",
+    "material estimator",
+    "cost calculator",
+  ],
   openGraph: { siteName: SITE_NAME, type: "website", url: SITE_URL },
-  robots: { index: true, follow: true },
+  twitter: {
+    card: "summary_large_image",
+    title: "HomeCalcify — Home Improvement Calculators",
+    description:
+      "Free, accurate calculators for concrete, roofing, flooring, paint, and more. Estimate materials and cost in seconds.",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
