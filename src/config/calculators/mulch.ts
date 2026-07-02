@@ -98,8 +98,12 @@ export const mulchCalculator: CalculatorConfig = {
       { question: "How deep should mulch be?", answer: "2–3 inches suppresses weeds and retains moisture. Avoid piling mulch against stems or trunks." },
       { question: "How much area does a yard of mulch cover?", answer: "One cubic yard covers about 108 sq ft at 3 inches deep, or 162 sq ft at 2 inches." },
     ],
-    related: ["concrete-calculator", "flooring-calculator"],
-    guides: [{ title: "How Much Mulch Do I Need?", href: "/guides/how-much-mulch-do-i-need/" }],
+    related: ["topsoil-calculator", "sod-calculator", "concrete-calculator"],
+    guides: [
+      { title: "How Much Mulch Do I Need?", href: "/guides/how-much-mulch-do-i-need/" },
+      { title: "How Much Does Mulch Cost?", href: "/guides/how-much-does-mulch-cost/" },
+      { title: "Mulch vs Rock", href: "/guides/mulch-vs-rock/" },
+    ],
   },
   seo: {
     title: "Mulch Calculator — Cubic Yards & Bags | HomeCalcify",

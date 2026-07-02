@@ -106,7 +106,12 @@ export const insulationCalculator: CalculatorConfig = {
       { question: "How much does it cost to insulate a house?", answer: "It depends on area and type — from about $1/ft² for batts to $7/ft² for spray foam, installed." },
     ],
     related: ["drywall-calculator", "siding-calculator"],
-    guides: [],
+    guides: [
+      { title: "How Much Does It Cost to Insulate a House?", href: "/guides/cost-to-insulate-a-house/" },
+      { title: "Spray Foam vs Fiberglass Insulation", href: "/guides/spray-foam-vs-fiberglass-insulation/" },
+      { title: "What R-Value Do I Need?", href: "/guides/what-r-value-do-i-need/" },
+      { title: "Attic Insulation Cost", href: "/guides/attic-insulation-cost/" },
+    ],
   },
   seo: {
     title: "Insulation Calculator — Cost by Type & Area | HomeCalcify",

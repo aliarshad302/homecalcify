@@ -104,7 +104,11 @@ export const sidingCalculator: CalculatorConfig = {
       { question: "What is the cheapest siding?", answer: "Vinyl siding has the lowest installed cost and the least maintenance, which is why it's the most common choice." },
     ],
     related: ["insulation-calculator", "roofing-calculator"],
-    guides: [],
+    guides: [
+      { title: "How Much Does Siding Cost?", href: "/guides/how-much-does-siding-cost/" },
+      { title: "Vinyl vs Fiber Cement Siding", href: "/guides/vinyl-vs-fiber-cement-siding/" },
+      { title: "Best Siding for Cold Climates", href: "/guides/best-siding-for-cold-climates/" },
+    ],
   },
   seo: {
     title: "Siding Calculator — Square Footage & Cost | HomeCalcify",

@@ -1,6 +1,7 @@
 import type { CalculatorConfig } from "@/lib/calculator/types";
 import { concreteCalculator } from "./concrete";
 import { drywallCalculator } from "./drywall";
+import { drywallMudCalculator } from "./drywall-mud";
 import { flooringCalculator } from "./flooring";
 import { vinylPlankCalculator } from "./vinyl-plank";
 import { tileCalculator } from "./tile";
@@ -9,6 +10,8 @@ import { exteriorPaintCalculator } from "./exterior-paint";
 import { roofingCalculator } from "./roofing";
 import { roofPitchCalculator } from "./roof-pitch";
 import { mulchCalculator } from "./mulch";
+import { topsoilCalculator } from "./topsoil";
+import { sodCalculator } from "./sod";
 import { asphaltCalculator } from "./asphalt";
 import { gravelCalculator } from "./gravel";
 import { insulationCalculator } from "./insulation";
@@ -29,7 +32,10 @@ export const calculators: CalculatorConfig[] = [
   paintCalculator,
   exteriorPaintCalculator,
   drywallCalculator,
+  drywallMudCalculator,
   mulchCalculator,
+  topsoilCalculator,
+  sodCalculator,
   asphaltCalculator,
   gravelCalculator,
   insulationCalculator,

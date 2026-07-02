@@ -123,8 +123,12 @@ export const asphaltCalculator: CalculatorConfig = {
       { question: "How thick should an asphalt driveway be?", answer: "2–3 inches of compacted asphalt over a solid base for residential driveways; 4+ inches for heavier vehicles." },
       { question: "How much does a ton of asphalt cover?", answer: "At 2 inches thick, one ton covers roughly 80 sq ft; at 3 inches, about 54 sq ft." },
     ],
-    related: ["concrete-calculator", "roofing-calculator"],
-    guides: [{ title: "Asphalt vs Concrete Driveway", href: "/guides/asphalt-vs-concrete-driveway/" }],
+    related: ["gravel-calculator", "concrete-calculator"],
+    guides: [
+      { title: "Asphalt vs Concrete Driveway", href: "/guides/asphalt-vs-concrete-driveway/" },
+      { title: "Asphalt Driveway Cost", href: "/guides/asphalt-driveway-cost/" },
+      { title: "Cost to Pave a Driveway", href: "/guides/cost-to-pave-a-driveway/" },
+    ],
   },
   seo: {
     title: "Asphalt Calculator — Tons for a Driveway | HomeCalcify",

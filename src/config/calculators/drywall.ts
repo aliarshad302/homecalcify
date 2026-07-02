@@ -102,8 +102,12 @@ export const drywallCalculator: CalculatorConfig = {
       { question: "How much joint compound per sheet?", answer: "Budget roughly 0.5–0.75 of a 5-gallon bucket per 10 sheets, or about 0.053 lb per square foot of drywall." },
       { question: "Should I use 4×8 or 4×12 sheets?", answer: "Larger 4×12 sheets create fewer seams to tape and finish but are heavier and harder to handle in tight spaces." },
     ],
-    related: ["paint-calculator", "concrete-calculator"],
-    guides: [{ title: "How Much Drywall Do I Need?", href: "/guides/how-much-drywall-do-i-need/" }],
+    related: ["drywall-mud-calculator", "paint-calculator", "concrete-calculator"],
+    guides: [
+      { title: "How Much Drywall Do I Need?", href: "/guides/how-much-drywall-do-i-need/" },
+      { title: "Cost to Drywall a Room", href: "/guides/cost-to-drywall-a-room/" },
+      { title: "Drywall Finishing Levels Explained", href: "/guides/drywall-finishing-levels/" },
+    ],
   },
   seo: {
     title: "Drywall Calculator — Sheets, Mud, Tape & Screws | HomeCalcify",

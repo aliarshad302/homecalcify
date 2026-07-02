@@ -91,7 +91,10 @@ export const gravelCalculator: CalculatorConfig = {
       { question: "Is gravel cheaper than asphalt?", answer: "Yes, gravel has the lowest up-front cost of any driveway, but it needs periodic regrading and topping up." },
     ],
     related: ["asphalt-calculator", "concrete-calculator"],
-    guides: [],
+    guides: [
+      { title: "Gravel Driveway Cost", href: "/guides/gravel-driveway-cost/" },
+      { title: "Cost to Pave a Driveway", href: "/guides/cost-to-pave-a-driveway/" },
+    ],
   },
   seo: {
     title: "Gravel Calculator — Cubic Yards, Tons & Cost | HomeCalcify",
