@@ -129,8 +129,13 @@ export const roofingCalculator: CalculatorConfig = {
       { question: "How many bundles of shingles per square?", answer: "Most architectural shingles come 3 bundles per square. Heavier designer shingles may need 4 or 5." },
       { question: "Why does roof pitch matter?", answer: "A steeper pitch increases the actual roof surface beyond the footprint, so more material is required." },
     ],
-    related: ["concrete-calculator", "paint-calculator"],
-    guides: [{ title: "How to Measure a Roof", href: "/guides/how-to-measure-a-roof/" }],
+    related: ["roof-pitch-calculator", "concrete-calculator", "paint-calculator"],
+    guides: [
+      { title: "How to Measure a Roof", href: "/guides/how-to-measure-a-roof/" },
+      { title: "Roof Replacement Cost", href: "/guides/roof-replacement-cost/" },
+      { title: "How Many Bundles of Shingles Per Square?", href: "/guides/how-many-bundles-of-shingles-per-square/" },
+      { title: "Roof Pitch Explained", href: "/guides/roof-pitch-explained/" },
+    ],
   },
   seo: {
     title: "Roofing Calculator — Squares & Shingle Bundles | HomeCalcify",
