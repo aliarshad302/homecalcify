@@ -7,6 +7,7 @@ import { AdSlot } from "@/components/ads/ad-slot";
 import { Card } from "@/components/ui/card";
 import { getCalculatorsByCategory } from "@/config/calculators";
 import { getHub, type HubConfig } from "@/config/hubs";
+import { pageRegistry } from "@/lib/programmatic/registry";
 import {
   breadcrumbSchema,
   collectionPageSchema,
@@ -17,6 +18,9 @@ import {
 /** Category hub template — the silo center that links to all its calculators. */
 export function HubPage({ hub }: { hub: HubConfig }) {
   const calcs = getCalculatorsByCategory(hub.slug);
+  const catSlugs = new Set(calcs.map((c) => c.slug));
+  const costPages = pageRegistry.filter((p) => p.type === "cost" && catSlugs.has(p.calculatorSlug));
+  const locationPages = pageRegistry.filter((p) => p.type === "location" && catSlugs.has(p.calculatorSlug));
   const crumbs = [
     { name: "Home", path: "/" },
     { name: "Categories", path: "/categories/" },
@@ -86,6 +90,41 @@ export function HubPage({ hub }: { hub: HubConfig }) {
               </li>
             ))}
           </ul>
+        </section>
+      )}
+
+      {/* Cost calculators (surfaces the programmatic cost pages) */}
+      {costPages.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-display text-2xl font-bold tracking-tight">{hub.name} cost calculators</h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {costPages.map((p) => (
+              <Link key={p.slug} href={`/${p.slug}/`} className="group">
+                <Card className="flex items-center justify-between p-4 transition-shadow hover:shadow-result">
+                  <span className="font-medium">{p.h1}</span>
+                  <ArrowRight className="size-4 text-primary transition-transform group-hover:translate-x-0.5" />
+                </Card>
+              </Link>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Local cost guides (surfaces the state/location pages) */}
+      {locationPages.length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-display text-2xl font-bold tracking-tight">{hub.name} costs by state</h2>
+          <div className="mt-4 flex flex-wrap gap-2">
+            {locationPages.map((p) => (
+              <Link
+                key={p.slug}
+                href={`/${p.slug}/`}
+                className="rounded-full border px-3 py-1 text-sm text-muted-foreground transition-colors hover:border-primary hover:text-primary"
+              >
+                {p.h1}
+              </Link>
+            ))}
+          </div>
         </section>
       )}
 

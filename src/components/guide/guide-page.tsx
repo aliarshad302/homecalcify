@@ -49,7 +49,7 @@ export function GuidePage({ guide }: { guide: GuideConfig }) {
 
       <header>
         <h1 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">{guide.title}</h1>
-        <p className="mt-4 rounded-lg border-l-4 border-l-primary bg-muted/40 p-4 text-lg leading-relaxed">
+        <p className="aeo-answer mt-4 rounded-lg border-l-4 border-l-primary bg-muted/40 p-4 text-lg leading-relaxed">
           {guide.answer}
         </p>
       </header>

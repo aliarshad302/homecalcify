@@ -95,7 +95,16 @@ export function articleSchema(opts: {
     headline: opts.title,
     description: opts.description,
     url: `${SITE_URL}${opts.path}`,
+    mainEntityOfPage: `${SITE_URL}${opts.path}`,
+    inLanguage: "en-US",
+    isAccessibleForFree: true,
+    datePublished: opts.updated,
     dateModified: opts.updated,
+    // Answer-engine / voice: mark the H1 and the AEO answer block as speakable.
+    speakable: {
+      "@type": "SpeakableSpecification",
+      cssSelector: ["h1", ".aeo-answer"],
+    },
     author: {
       "@type": "Organization",
       name: "HomeCalcify Editorial Team",

@@ -12,6 +12,7 @@ import {
   howToSchema,
   jsonLd,
 } from "@/lib/schema";
+import { clusterLinks } from "@/lib/programmatic/registry";
 import type { CalculatorConfig } from "@/lib/calculator/types";
 import Link from "next/link";
 import { AlertTriangle, ArrowRight } from "lucide-react";
@@ -220,6 +221,28 @@ export function CalculatorPage({
       {content.related && content.related.length > 0 && (
         <section className="mt-10">
           <RelatedGrid slugs={content.related} />
+        </section>
+      )}
+
+      {/* Cluster tools — links this calculator's cost / guide / how-to pages
+          (surfaces those pages for crawlers instead of leaving them orphaned) */}
+      {clusterLinks(config.slug).filter((l) => l.type !== "main").length > 0 && (
+        <section className="mt-10">
+          <h2 className="font-display text-2xl font-bold tracking-tight">
+            More {config.categoryLabel.toLowerCase()} tools &amp; guides
+          </h2>
+          <div className="mt-4 grid gap-3 sm:grid-cols-2">
+            {clusterLinks(config.slug)
+              .filter((l) => l.type !== "main")
+              .map((l) => (
+                <Link key={l.href} href={l.href} className="group">
+                  <Card className="flex items-center justify-between p-4 transition-shadow hover:shadow-result">
+                    <span className="font-medium">{l.label}</span>
+                    <ArrowRight className="size-4 text-primary transition-transform group-hover:translate-x-0.5" />
+                  </Card>
+                </Link>
+              ))}
+          </div>
         </section>
       )}
 
