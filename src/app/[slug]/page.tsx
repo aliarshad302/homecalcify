@@ -55,6 +55,9 @@ export function generateMetadata({ params }: PageProps): Metadata {
       keywords: page.keywords,
       alternates: { canonical: `/${page.slug}/` },
       openGraph: { title: page.title, description: page.description, url: `/${page.slug}/` },
+      // State/location pages are templated — noindex (but keep links followed) to
+      // concentrate ranking on stronger pages. Re-index once enriched per state.
+      robots: page.type === "location" ? { index: false, follow: true } : undefined,
     };
   }
 

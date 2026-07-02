@@ -46,13 +46,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  // Programmatic cluster pages (cost / guide / how-to / location).
-  const programmaticPages: MetadataRoute.Sitemap = pageRegistry.map((p) => ({
-    url: url(`/${p.slug}/`),
-    lastModified: now,
-    changeFrequency: "monthly",
-    priority: p.type === "cost" ? 0.7 : p.type === "location" ? 0.5 : 0.6,
-  }));
+  // Programmatic cluster pages (cost / guide / how-to). Location/state pages are
+  // noindexed (templated), so they're excluded from the sitemap.
+  const programmaticPages: MetadataRoute.Sitemap = pageRegistry
+    .filter((p) => p.type !== "location")
+    .map((p) => ({
+      url: url(`/${p.slug}/`),
+      lastModified: now,
+      changeFrequency: "monthly",
+      priority: p.type === "cost" ? 0.7 : 0.6,
+    }));
 
   return [...staticPages, ...calcPages, ...hubPages, ...guidePages, ...programmaticPages];
 }
