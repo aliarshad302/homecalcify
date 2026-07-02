@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB"/>
+      <stop offset="1" stop-color="#1D4ED8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- white tile badge holding the logo mark -->
+  <rect x="150" y="330" width="240" height="240" rx="48" fill="#FFFFFF"/>
+  <g transform="translate(174,354) scale(0.375)">
+    <rect width="512" height="512" rx="112" fill="#2563EB"/>
+    <path d="M256 104 400 232 112 232Z" fill="#FFFFFF"/>
+    <rect x="140" y="232" width="232" height="172" rx="24" fill="#FFFFFF"/>
+    <rect x="168" y="256" width="176" height="46" rx="10" fill="#2563EB"/>
+    <g fill="#2563EB">
+      <circle cx="190" cy="340" r="14"/><circle cx="256" cy="340" r="14"/>
+      <circle cx="190" cy="382" r="14"/><circle cx="256" cy="382" r="14"/>
+      <circle cx="322" cy="382" r="14"/>
+    </g>
+    <circle cx="322" cy="340" r="14" fill="#F59E0B"/>
+  </g>
+
+  <text x="440" y="410" font-family="Arial, sans-serif" font-size="104" font-weight="800" fill="#FFFFFF">HomeCalcify</text>
+  <text x="446" y="490" font-family="Arial, sans-serif" font-size="46" font-weight="600" fill="#FFFFFF" opacity="0.95">Free Home Improvement Calculators</text>
+  <text x="446" y="552" font-family="Arial, sans-serif" font-size="32" fill="#FFFFFF" opacity="0.82">Concrete · Roofing · Decks · Flooring · Painting · &amp; more</text>
+</svg>

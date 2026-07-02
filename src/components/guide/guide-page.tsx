@@ -5,7 +5,7 @@ import { FaqBlock } from "@/components/calculator/faq-block";
 import { AdSlot } from "@/components/ads/ad-slot";
 import { Card } from "@/components/ui/card";
 import { getCalculator } from "@/config/calculators";
-import { getGuide, type GuideConfig } from "@/config/guides";
+import { guides, getGuide, type GuideConfig } from "@/config/guides";
 import { AuthorByline, AboutAuthor } from "@/components/calculator/author-byline";
 import { articleSchema, breadcrumbSchema, faqSchema, jsonLd } from "@/lib/schema";
 
@@ -27,6 +27,19 @@ export function GuidePage({ guide }: { guide: GuideConfig }) {
   ];
   const calc = guide.calculatorSlug ? getCalculator(guide.calculatorSlug) : undefined;
   const showToc = guide.sections.length >= 4;
+
+  // Ensure every guide links to 3–4 related guides: use the explicit list, then
+  // top up with same-category siblings so no guide is left under-linked.
+  const explicit = (guide.related ?? []).filter((s) => getGuide(s));
+  const relatedSlugs =
+    explicit.length >= 3
+      ? explicit.slice(0, 4)
+      : [
+          ...explicit,
+          ...guides
+            .filter((g) => g.category === guide.category && g.slug !== guide.slug && !explicit.includes(g.slug))
+            .map((g) => g.slug),
+        ].slice(0, 4);
 
   return (
     <article className="container max-w-3xl py-8">
@@ -151,11 +164,11 @@ export function GuidePage({ guide }: { guide: GuideConfig }) {
         </section>
       )}
 
-      {guide.related && guide.related.length > 0 && (
+      {relatedSlugs.length > 0 && (
         <section className="mt-10">
           <h2 className="font-display text-2xl font-bold tracking-tight">Related guides</h2>
           <ul className="mt-4 space-y-2">
-            {guide.related.map((slug) => {
+            {relatedSlugs.map((slug) => {
               const rel = getGuide(slug);
               if (!rel) return null;
               return (

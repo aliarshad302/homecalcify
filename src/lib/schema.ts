@@ -45,15 +45,18 @@ export function breadcrumbSchema(items: { name: string; path: string }[]): Json 
 
 /** SoftwareApplication for a calculator tool. */
 export function calculatorSchema(config: CalculatorConfig): Json {
+  // WebPage (not SoftwareApplication): the app rich result requires an
+  // aggregateRating/review we won't fabricate, and an incomplete
+  // SoftwareApplication is flagged as invalid. WebPage is always valid and the
+  // page keeps its HowTo + FAQPage + Breadcrumb rich-result schemas.
   return {
     "@context": "https://schema.org",
-    "@type": "SoftwareApplication",
+    "@type": "WebPage",
     name: config.name,
-    applicationCategory: "UtilitiesApplication",
-    operatingSystem: "Web",
     url: `${SITE_URL}/${config.slug}/`,
     description: config.seo?.description ?? config.description,
-    offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
+    inLanguage: "en-US",
+    isPartOf: { "@type": "WebSite", name: SITE_NAME, url: SITE_URL },
   };
 }
 
