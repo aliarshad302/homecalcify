@@ -211,16 +211,18 @@ export const hubs: HubConfig[] = [
     name: "Insulation",
     description: "Insulation calculators and cost guides for walls, attics, and whole homes.",
     intro:
-      "Cut energy bills with the right amount of insulation. Our insulation calculators turn your wall or attic area into material and installed-cost estimates for fiberglass batts, blown-in cellulose, and spray foam — with the R-value targets for your climate. Explore the tools and cost guides below.",
+      "Cut energy bills with the right amount of insulation. Use our tools as a wall insulation calculator, a whole house insulation calculator, or a blown-in insulation estimator. Enter your square feet and insulation type. You get material and installed-cost estimates for fiberglass batts, blown-in cellulose insulation, and spray foam. Each result includes the R-value target for your climate, so you can meet local building codes. Explore the tools and cost guides below.",
     whatYouCanEstimate: [
-      "Square footage to insulate",
+      "Square footage to insulate (walls or attic)",
       "Cost by insulation type",
       "R-value targets for walls and attics",
-      "Batt, blown-in, and spray foam pricing",
+      "Batt, blown-in cellulose, and spray foam pricing",
     ],
     faqs: [
-      { question: "How much insulation do I need?", answer: "Measure the area and target the right R-value — R-38 to R-60 in attics and R-13 to R-21 in walls, depending on climate." },
-      { question: "What is the cheapest insulation?", answer: "Fiberglass batts have the lowest installed cost; blown-in is best for attics and retrofits." },
+      { question: "How much insulation do I need?", answer: "Measure the area in square feet and target the right R-value — R-38 to R-60 in attics and R-13 to R-21 in walls, depending on climate and local building codes." },
+      { question: "What is the cheapest insulation?", answer: "Fiberglass batts have the lowest installed cost. Blown-in cellulose is best for attics and retrofits, and it fills gaps that batts miss." },
+      { question: "How much does blown-in insulation cost?", answer: "Blown-in cellulose runs about $1 to $2.50 per square foot installed. Use the insulation calculator as a blown insulation cost calculator by picking the blown-in type." },
+      { question: "How do I calculate wall insulation?", answer: "Multiply the wall length by its height for the square footage. Then pick your insulation type in the wall insulation calculator to get the material and cost." },
     ],
     guides: [
       { title: "How Much Does It Cost to Insulate a House?", href: "/guides/cost-to-insulate-a-house/" },

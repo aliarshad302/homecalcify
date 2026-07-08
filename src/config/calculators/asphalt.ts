@@ -75,7 +75,7 @@ export const asphaltCalculator: CalculatorConfig = {
   },
   content: {
     answer:
-      "To estimate asphalt, multiply length × width × thickness for the volume in cubic feet, multiply by the density (~145 lb/ft³), then divide by 2,000 to get tons. A 50×12 ft driveway at 3 inches needs about 10.9 tons, costing roughly $1,800–$4,200 installed.",
+      "To calculate asphalt, multiply length × width × thickness for the volume in cubic feet, multiply by the density (~145 lb/ft³), then divide by 2,000 to get tons. This gives your asphalt requirements in tons for a paving job. A 50×12 ft driveway at 3 inches needs about 10.9 tons, costing roughly $1,800–$4,200 installed.",
     quickFacts: [
       { label: "Asphalt density", value: "~145 lb/ft³" },
       { label: "Driveway depth", value: "2–3 in" },

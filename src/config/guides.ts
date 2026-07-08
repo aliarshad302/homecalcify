@@ -27,7 +27,7 @@ export const guides: GuideConfig[] = [
   {
     "slug": "3-tab-vs-architectural-shingles",
     "title": "3-Tab vs Architectural Shingles: Cost & Comparison",
-    "description": "Compare 3-tab and architectural asphalt shingles on cost, lifespan, looks, and wind resistance.",
+    "description": "The 3-tab vs architectural shingles cost difference, plus how they compare on lifespan, looks, and wind resistance.",
     "answer": "3-tab shingles cost about $350 to $500 per roofing square installed and last 15–20 years, while architectural (dimensional) shingles cost $450 to $700 per square and last 25–30 years. Architectural shingles are thicker, more wind-resistant, and look better, which is why they're now the most popular choice.",
     "updated": "2026-06-12",
     "intro": [
@@ -90,7 +90,14 @@ export const guides: GuideConfig[] = [
       {
         "heading": "Why architectural shingles dominate",
         "paragraphs": [
-          "Architectural shingles cost a bit more but last 50% longer, handle high winds, and add curb appeal with their layered, dimensional look. For most homeowners staying put, they're the better long-term value — and many warranties are stronger."
+          "Architectural shingles — also called dimensional or laminate shingles — cost a bit more but last 50% longer, handle high winds, and add curb appeal with their layered look. For most homeowners staying put, they're the better long-term value, and many warranties are stronger. We recommend architectural shingles for any home you plan to keep."
+        ]
+      },
+      {
+        "heading": "The 3-tab vs architectural shingles cost difference",
+        "paragraphs": [
+          "The cost difference between the two comes down to upfront cost versus lifespan. Both are asphalt shingles installed the same way, so labor is nearly identical — the gap is almost entirely material. 3-tab saves about $100–$200 per square upfront, but with 3-tab lasting about 20 years and architectural roofs installed today lasting 25 to 30 years (some rated 50 years), architectural often costs less per year of service.",
+          "On a typical 20-square roof, 3-tab runs roughly $7,000–$10,000 while architectural runs $9,000–$14,000. If it's a rental property or a home you're selling soon, the lower 3-tab upfront cost can make sense. For a long-term home — and compared with premium options like wood shake or slate — architectural shingles hit the sweet spot of price, looks, and durability."
         ]
       },
       {
@@ -112,6 +119,10 @@ export const guides: GuideConfig[] = [
       {
         "question": "Do 3-tab and architectural shingles cost the same to install?",
         "answer": "Labor is similar; architectural shingles cost more mainly because of the material."
+      },
+      {
+        "question": "What is the cost difference between 3-tab and architectural shingles?",
+        "answer": "Architectural shingles cost about $100–$200 more per roofing square than 3-tab. On a 20-square roof that's roughly $2,000–$4,000 more upfront, but they last 25–30 years versus 15–20 for 3-tab."
       }
     ],
     "related": [
@@ -1056,7 +1067,7 @@ export const guides: GuideConfig[] = [
     "slug": "concrete-slab-cost",
     "title": "How Much Does a Concrete Slab Cost? (2026)",
     "description": "Concrete slab cost per square foot and by common sizes, plus thickness, finish, and what drives the price.",
-    "answer": "A concrete slab costs about $4 to $8 per square foot for a standard 4-inch pour, or roughly $6 to $12 for thicker, reinforced, or finished slabs. A 20×20 ft slab (400 sq ft) typically runs $1,600 to $3,200 installed, including the concrete, base, and labor.",
+    "answer": "A poured concrete slab costs about $4 to $8 per square foot for a standard 4-inch pour, or roughly $6 to $12 for thicker, reinforced, or finished slabs. A 20×20 ft slab (400 sq ft) typically runs $1,600 to $3,200 installed, and a 30×30 ft slab about $3,600 to $7,200, including the concrete mix, base, and labor costs.",
     "updated": "2026-06-12",
     "intro": [
       "A concrete slab is the foundation for sheds, garages, patios, driveways, and home additions. Pricing it right means understanding not just the concrete itself, but the base prep, reinforcement, thickness, and labor that go into a lasting slab.",
@@ -1103,6 +1114,11 @@ export const guides: GuideConfig[] = [
               "24 × 24 ft (garage)",
               "576 ft²",
               "$2,300 – $4,600"
+            ],
+            [
+              "30 × 30 ft",
+              "900 ft²",
+              "$3,600 – $7,200"
             ]
           ]
         }
@@ -1172,6 +1188,10 @@ export const guides: GuideConfig[] = [
         "answer": "About $2,300–$4,600 installed for a standard reinforced 4-inch slab, more for thicker or finished concrete."
       },
       {
+        "question": "How much does a 30x30 concrete slab cost?",
+        "answer": "A 30×30 ft poured concrete slab (900 ft²) typically costs $3,600–$7,200 installed, depending on thickness, reinforcement, and local labor costs."
+      },
+      {
         "question": "How much does a concrete slab cost per square foot?",
         "answer": "Roughly $4–$8/ft² for a standard 4-inch slab, and $6–$12 for thicker or finished slabs."
       },
@@ -1198,8 +1218,8 @@ export const guides: GuideConfig[] = [
     "slug": "cost-to-drywall-a-room",
     "title": "How Much Does It Cost to Drywall a Room? (2026)",
     "description": "Drywall installation costs per square foot and per room, what's included, and how to estimate your own project.",
-    "answer": "Drywall installation costs about $1.50 to $3.50 per square foot of surface area, including hanging, taping, and finishing. A standard 12×12 ft room costs roughly $900 to $2,000, depending on ceiling height, finish level, and local labor rates.",
-    "updated": "2026-06-12",
+    "answer": "The cost to hang and finish drywall is about $1.50 to $3.50 per square foot of surface area, covering the board, taping, and a sanded, paint-ready finish. A standard 12×12 ft room costs roughly $900 to $2,000, depending on the square footage, ceiling height, finish level, and local labor rates.",
+    "updated": "2026-07-09",
     "intro": [
       "Drywall (also called sheetrock or gypsum board) is what turns bare studs into finished walls and ceilings. Whether you're finishing a basement, adding a room, or repairing water damage, knowing the cost up front helps you budget and compare contractor quotes with confidence.",
       "This guide covers what drywall costs per square foot and per room in 2026, what's included in a typical quote, and how to estimate the number of sheets and the price for your own space."
@@ -2181,10 +2201,10 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "exterior-painting-cost",
-    "title": "How Much Does It Cost to Paint a House Exterior? (2026)",
-    "description": "Exterior painting costs by home size and siding type, what's included, and how to estimate paint.",
-    "answer": "Painting a house exterior costs about $1.50 to $4 per square foot of surface, or $3,000 to $10,000 for an average two-story home. Prep work, number of stories, and siding type drive the price. Quality exterior paint and proper prep are what make the job last 7–10 years.",
-    "updated": "2026-06-12",
+    "title": "How Much Does It Cost to Paint Exterior of House? (2026)",
+    "description": "The average cost to paint the exterior of a house by home size and siding type, an exterior house painting cost estimator, and how to estimate paint and project costs.",
+    "answer": "The average cost to paint the exterior of a house is about $1.50 to $4 per square foot of surface, or $3,000 to $10,000 for an average two-story home. Painting a 3,000 square foot house exterior typically runs $6,000 to $13,000. Prep work, number of stories, and siding type drive project costs, while quality exterior paint and proper prep make the job last 7–10 years.",
+    "updated": "2026-07-09",
     "intro": [
       "A fresh exterior paint job is one of the best returns on investment for curb appeal and protection from the elements. But exterior painting costs more than interior work because of prep, height, and the durable paint required.",
       "This guide breaks down exterior painting costs in 2026 by home size and siding, explains what's included, and shows how to estimate the paint you'll need."
@@ -2222,9 +2242,28 @@ export const guides: GuideConfig[] = [
               "2,500 ft²",
               "2",
               "$5,000 – $12,000"
+            ],
+            [
+              "3,000 ft²",
+              "2",
+              "$6,000 – $13,000"
             ]
           ]
         }
+      },
+      {
+        "heading": "What drives exterior house painting costs",
+        "paragraphs": [
+          "Two homes of the same size can have very different project costs. The average cost to paint the exterior of a house climbs with anything that adds labor, prep, or paint. Understanding these factors helps you read a quote and spot where the money goes.",
+          "Height is the biggest single factor: a three-story or steeply pitched home needs scaffolding and slows the crew, while a single-story ranch is fast and cheap to reach. Heavy prep — scraping failed paint, repairing wood, or priming bare masonry — can rival the painting itself. Color changes that need extra coats, and premium paints rated for 10+ years, also raise the total."
+        ],
+        "bullets": [
+          "Stories and access — scaffolding and ladders add labor.",
+          "Prep condition — scraping, sanding, and priming weathered surfaces.",
+          "Number of coats — dark-to-light changes often need three.",
+          "Paint grade — premium exterior paint costs more but lasts longer.",
+          "Trim and detail — shutters, railings, and multi-color schemes add hours."
+        ]
       },
       {
         "heading": "Cost by siding type",
@@ -2274,14 +2313,18 @@ export const guides: GuideConfig[] = [
       {
         "heading": "How much exterior paint do you need?",
         "paragraphs": [
-          "Exterior paint covers about 300–400 sq ft per gallon (less on rough surfaces). Estimate your wall area, subtract openings, multiply by coats, and divide by 350. Our paint calculator gives the gallons and cost."
+          "Exterior paint covers about 300–400 sq ft per gallon (less on rough surfaces). Estimate your wall area, subtract openings, multiply by coats, and divide by 350. Use our paint calculator as an exterior house painting cost estimator — it turns your wall area into gallons and a materials cost in seconds."
         ]
       }
     ],
     "faqs": [
       {
-        "question": "How much does it cost to paint a house exterior?",
-        "answer": "About $1.50–$4 per square foot, or $3,000–$10,000 for an average two-story home."
+        "question": "How much does it cost to paint the exterior of a house?",
+        "answer": "The average cost to paint the exterior of a house is about $1.50–$4 per square foot, or $3,000–$10,000 for an average two-story home."
+      },
+      {
+        "question": "How much to paint a 3,000 square foot house exterior?",
+        "answer": "Painting a 3,000 square foot house exterior typically costs $6,000–$13,000, depending on stories, siding, and how much prep the surface needs."
       },
       {
         "question": "Why does exterior painting cost more than interior?",
@@ -2301,33 +2344,103 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "flooring-installation-cost",
-    "title": "Flooring Installation Cost Guide",
-    "description": "What flooring costs by material and how to estimate your project budget per square foot.",
-    "answer": "Flooring costs vary by material: laminate runs about $2–$6 per sq ft, vinyl plank $3–$7, and hardwood $6–$15 installed. Estimate your budget by multiplying your room's square footage (plus 10% waste) by the installed price per square foot.",
-    "updated": "2026-06-11",
+    "title": "Flooring Installation Cost: Average Cost to Install Flooring (2026)",
+    "description": "The average cost to install flooring by material, how labor costs and flooring materials break down, and how to estimate your project per square foot.",
+    "answer": "The average cost to install flooring is about $3 to $12 per square foot, combining flooring materials and labor. Laminate runs $2–$6 per sq ft installed, luxury vinyl plank $3–$7, engineered wood $5–$10, and solid hardwood $6–$15. For a typical 200 ft² room, expect roughly $600 to $2,400 in total flooring and installation costs.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Flooring is one of the highest-impact upgrades in a home, but the price swings widely depending on the material you choose and how much labor the install takes. Knowing the average cost to install flooring before you shop keeps your budget realistic and helps you compare quotes with confidence.",
+      "This guide breaks down flooring and installation costs by material, separates the flooring materials from the labor costs, and shows how to estimate your own project per square foot."
+    ],
+    "keyTakeaways": [
+      "The average cost to install flooring is about $3–$12 per square foot, materials plus labor.",
+      "Flooring materials run $1–$12/ft² and labor typically adds $1–$5/ft².",
+      "Laminate and vinyl plank are the most budget-friendly; hardwood and tile cost the most.",
+      "A standard 200 ft² room costs roughly $600–$2,400 installed.",
+      "Always add 10% for waste, plus underlayment, transitions, and old-floor removal."
+    ],
     "calculatorSlug": "flooring-calculator",
     "category": "flooring",
     "sections": [
       {
-        "heading": "Typical material costs",
+        "heading": "Average cost to install flooring by material",
+        "paragraphs": [
+          "The single biggest driver of flooring and installation costs is the material. The table below shows typical installed prices — flooring materials and labor combined — for the most common options in 2026."
+        ],
+        "table": {
+          "columns": [
+            "Flooring type",
+            "Material cost / ft²",
+            "Installed cost / ft²",
+            "200 ft² room"
+          ],
+          "rows": [
+            ["Laminate", "$1 – $4", "$2 – $6", "$400 – $1,200"],
+            ["Luxury vinyl plank", "$2 – $5", "$3 – $7", "$600 – $1,400"],
+            ["Engineered wood", "$3 – $8", "$5 – $10", "$1,000 – $2,000"],
+            ["Solid hardwood", "$4 – $10", "$6 – $15", "$1,200 – $3,000"],
+            ["Ceramic/porcelain tile", "$1 – $8", "$7 – $14", "$1,400 – $2,800"]
+          ]
+        }
+      },
+      {
+        "heading": "Labor costs vs. flooring materials",
+        "paragraphs": [
+          "It helps to separate flooring materials from labor costs when you compare quotes. Labor is usually $1–$5 per square foot depending on the material and how tricky the install is — floating floors like laminate and vinyl plank are cheapest to install, while nail-down hardwood and mortar-set tile cost the most in labor.",
+          "Complex layouts, stairs, patterned installs, and subfloor repairs all push labor higher. Removing and hauling away old flooring typically adds $1–$2 per square foot on top."
+        ],
         "bullets": [
-          "Laminate: $2–$6 / ft² installed",
-          "Luxury vinyl plank: $3–$7 / ft² installed",
-          "Engineered wood: $5–$10 / ft² installed",
-          "Solid hardwood: $6–$15 / ft² installed"
+          "Floating floors (laminate, LVP): $1–$3/ft² labor.",
+          "Nail-down or glue-down hardwood: $3–$5/ft² labor.",
+          "Tile: $4–$8/ft² labor for setting and grouting.",
+          "Old-floor removal and disposal: $1–$2/ft² extra.",
+          "Subfloor leveling or repair: $1–$3/ft² if needed."
         ]
       },
       {
-        "heading": "Budgeting tips",
-        "paragraphs": [
-          "Measure your square footage, add 10% for waste, and multiply by the installed price. Remember to include underlayment, transitions, and removal of old flooring."
+        "heading": "What else affects flooring and installation costs",
+        "bullets": [
+          "Room size — larger rooms lower the per-square-foot rate slightly.",
+          "Underlayment and moisture barrier — $0.30–$1.00/ft².",
+          "Transitions, thresholds, and trim — a few dollars per linear foot.",
+          "Furniture moving and appliance disconnects.",
+          "Region and local labor rates — coastal metros run highest."
         ]
+      },
+      {
+        "heading": "How to estimate your flooring cost",
+        "paragraphs": [
+          "Measure the room's length × width for square footage, add about 10% for waste and cuts, then multiply by the installed price per square foot for your chosen material. Add underlayment, transitions, and removal of the old floor for a complete budget."
+        ],
+        "table": {
+          "columns": ["Room size", "Area (+10% waste)", "Laminate", "Hardwood"],
+          "rows": [
+            ["10 × 12 ft", "132 ft²", "$264 – $792", "$792 – $1,980"],
+            ["12 × 15 ft", "198 ft²", "$396 – $1,188", "$1,188 – $2,970"],
+            ["15 × 20 ft", "330 ft²", "$660 – $1,980", "$1,980 – $4,950"]
+          ]
+        }
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "What is the average cost to install flooring?",
+        "answer": "The average cost to install flooring is about $3–$12 per square foot including materials and labor. Budget laminate and vinyl at the low end and hardwood or tile at the high end."
+      },
+      {
+        "question": "How much of the cost is labor vs. materials?",
+        "answer": "Flooring materials usually run $1–$12/ft² and labor adds $1–$5/ft². Floating floors are cheapest to install; nail-down hardwood and tile cost the most in labor."
+      },
+      {
+        "question": "Does the price include removing my old floor?",
+        "answer": "Not always. Removal and disposal of old flooring typically adds $1–$2 per square foot, so confirm whether a quote includes it."
+      }
+    ],
     "related": [
       "how-many-tiles-do-i-need",
-      "how-much-concrete-do-i-need"
+      "how-much-concrete-do-i-need",
+      "hardwood-flooring-cost",
+      "laminate-vs-vinyl-plank-flooring"
     ]
   },
   {
@@ -3587,31 +3700,81 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "how-to-measure-a-roof",
-    "title": "How to Measure a Roof",
-    "description": "Measure your roof for shingles using footprint and pitch, then convert to squares and bundles.",
-    "answer": "To measure a roof, find the footprint (length × width), multiply by a pitch factor to get the true surface area, then divide by 100 for roofing squares. Add 10–15% for waste. Shingles come three bundles per square.",
-    "updated": "2026-06-11",
+    "title": "How to Measure a Roof: Roofing Measurements for Shingles",
+    "description": "Take accurate roofing measurements using footprint and pitch, convert the total roof to squares and bundles, and get an accurate estimate for materials.",
+    "answer": "To measure a roof, find the footprint (length × width) for its square footage, multiply by a pitch factor to get the true surface area, then divide by 100 for roofing squares. Add 10–15% for waste. Shingles come three bundles per square. Accurate roofing measurements are what turn a rough guess into an accurate estimate — and save you time and money on returns or shortfalls.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Accurate roofing measurements are the foundation of every shingle estimate. Order too little and you halt the job for a supply run; order too much and you've paid for bundles you'll never open. Getting the total roof area right the first time saves both time and money.",
+      "This guide shows how to take roof measurements from the ground and on the roof, how pitch changes the real square footage, and how to convert your numbers into squares and bundles for an accurate estimate."
+    ],
+    "keyTakeaways": [
+      "Roof area = footprint (length × width) × pitch factor.",
+      "1 roofing square = 100 sq ft; shingles come 3 bundles per square.",
+      "A 6:12 roof has a pitch factor of about 1.118.",
+      "Add 10% waste for simple roofs, 15% for cut-up roofs with valleys.",
+      "Accurate roofing measurements give an accurate estimate and avoid costly re-orders."
+    ],
     "calculatorSlug": "roofing-calculator",
     "category": "roofing",
     "sections": [
       {
-        "heading": "Why pitch matters",
+        "heading": "Step 1: Measure the roof footprint",
         "paragraphs": [
-          "A roof's actual surface is larger than its footprint because of the slope. Multiply the footprint by a pitch factor — for example 1.118 for a common 6:12 roof — to get the real area."
+          "Start with the building footprint — the length and width of the area the roof covers, measured at the eaves. Multiply them for the base square footage. For a simple gable roof you can measure each rectangular plane; for complex roofs, measure the outline of the whole structure from the ground and account for overhangs."
         ]
       },
       {
-        "heading": "Squares and bundles",
+        "heading": "Step 2: Apply the pitch factor",
+        "paragraphs": [
+          "A roof's actual surface is larger than its footprint because of the slope, so a flat footprint always understates the total roof area. Multiply the footprint by a pitch factor to convert it to true surface area. The steeper the roof, the larger the factor — and the more material you need."
+        ],
+        "table": {
+          "columns": ["Roof pitch", "Pitch factor", "Description"],
+          "rows": [
+            ["4:12", "1.054", "Low slope, walkable"],
+            ["6:12", "1.118", "Common, moderate"],
+            ["8:12", "1.202", "Steep, harder to walk"],
+            ["12:12", "1.414", "Very steep (45°)"]
+          ]
+        }
+      },
+      {
+        "heading": "Step 3: Convert to squares and bundles",
         "bullets": [
-          "1 square = 100 sq ft of roof",
-          "3 bundles of architectural shingles per square",
-          "Add 10% waste for simple roofs, 15% for cut-up roofs"
+          "1 square = 100 sq ft of roof surface.",
+          "3 bundles of architectural shingles per square.",
+          "Divide your total roof area by 100 for squares.",
+          "Add 10% waste for simple roofs, 15% for cut-up roofs.",
+          "Round up to full bundles when ordering."
+        ]
+      },
+      {
+        "heading": "Get an accurate estimate fast",
+        "paragraphs": [
+          "Once you have the footprint and pitch, our roofing calculator does the math — turning your roofing measurements into squares, bundles, and an installed-cost range. It's the quickest way to go from raw dimensions to an accurate estimate without spreadsheets."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How do I take accurate roofing measurements?",
+        "answer": "Measure the footprint (length × width) for square footage, multiply by the pitch factor for your slope to get the true surface area, then divide by 100 for squares and add 10–15% for waste."
+      },
+      {
+        "question": "How do I find my roof's total square footage?",
+        "answer": "Multiply the footprint area by the pitch factor. A 40 × 30 ft footprint (1,200 ft²) on a 6:12 roof is about 1,200 × 1.118 ≈ 1,342 ft² of total roof."
+      },
+      {
+        "question": "Can I measure a roof without climbing on it?",
+        "answer": "Yes. Measure the footprint from the ground, determine the pitch with a level, and apply the pitch factor. It won't be as exact as on-roof measurements but gives a solid estimate."
+      }
+    ],
     "related": [
-      "how-much-concrete-do-i-need"
+      "how-much-concrete-do-i-need",
+      "roof-pitch-explained",
+      "how-many-bundles-of-shingles-per-square",
+      "3-tab-vs-architectural-shingles"
     ]
   },
   {

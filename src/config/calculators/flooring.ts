@@ -55,7 +55,7 @@ export const flooringCalculator: CalculatorConfig = {
   },
   content: {
     answer:
-      "To find how much flooring you need, multiply the room length by width for the area, then add 5–15% for waste and cuts. Divide by the coverage per box to get the number of boxes. A 15×12 ft room needs about 198 sq ft with 10% waste, costing roughly $600–$2,000 installed depending on material.",
+      "To find how much flooring you need, use this square footage calculator for flooring: multiply the room length by width for the total square footage, then add 5–15% for waste and cuts. Divide by the coverage per box to get the number of boxes. A 15×12 ft room needs about 198 sq ft with 10% waste, costing roughly $600–$2,000 installed depending on material. It works for laminate, hardwood, and vinyl plank flooring.",
     quickFacts: [
       { label: "Standard waste", value: "10%" },
       { label: "Typical box", value: "~20 ft²" },
@@ -92,6 +92,8 @@ export const flooringCalculator: CalculatorConfig = {
       { question: "How much extra flooring should I buy?", answer: "Add 10% for standard installs and 15% for diagonal or herringbone patterns to cover cuts and mistakes." },
       { question: "How do I measure an irregular room?", answer: "Break it into rectangles, calculate each area separately, then add them together before applying waste." },
       { question: "How many boxes of flooring do I need?", answer: "Divide your total square footage (with waste) by the coverage printed on the box, then round up." },
+      { question: "How do you calculate square feet for flooring?", answer: "Measure the length and width of the room in feet and multiply them for the flooring area. For L-shaped rooms, split them into rectangles, find each area, and add them. Then add 10% for waste to get the square footage to buy." },
+      { question: "Can I use this as a vinyl plank flooring calculator?", answer: "Yes. Enter the room size and set the coverage per box from your carton — it works for vinyl plank, laminate, engineered, and hardwood flooring types." },
     ],
     related: ["vinyl-plank-flooring-calculator", "tile-calculator", "concrete-calculator"],
     guides: [

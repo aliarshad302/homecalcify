@@ -1,0 +1,17 @@
+# HomeCalcify — static export on LiteSpeed/Apache
+# Security headers + 301 redirects for retired URLs.
+
+<IfModule mod_headers.c>
+  # HSTS — tell browsers to always use HTTPS (fixes "No HSTS support").
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  # Sensible default security headers.
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# 301 redirects for pages that were retired or moved. Keeps link equity and
+# stops old URLs 404-ing after the topical-map rebuild.
+Redirect 301 /how-much-does-a-concrete-slab-cost-in-2026/ /guides/concrete-slab-cost/
+Redirect 301 /how-much-does-a-concrete-slab-cost-in-2026 /guides/concrete-slab-cost/
+Redirect 301 /driveway-pavement/ /driveway-paving/
+Redirect 301 /driveway-pavement /driveway-paving/

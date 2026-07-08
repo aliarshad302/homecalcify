@@ -210,6 +210,16 @@ export const concreteCalculator: CalculatorConfig = {
         answer:
           "Yes. Add 5–10% for spillage, uneven subgrade, and over-excavation. Running short mid-pour creates a cold joint.",
       },
+      {
+        question: "How do I use this as a footing concrete calculator?",
+        answer:
+          "For a footing, enter its length and width and set the thickness to the footing's depth. The calculator returns the cubic yards and 60 lb or 80 lb bag count the same way it does for a slab. For continuous footings, add up each run's length.",
+      },
+      {
+        question: "How many 60 lb bags of concrete are in a yard?",
+        answer:
+          "A 60 lb bag yields about 0.45 cubic feet, so a full cubic yard (27 ft³) takes roughly 60 bags. An 80 lb bag yields about 0.60 ft³, or about 45 bags per yard.",
+      },
     ],
     related: ["drywall-calculator", "paint-calculator"],
     guides: [
