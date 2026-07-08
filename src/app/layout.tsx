@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Script from "next/script";
 import { Inter, Sora } from "next/font/google";
 import { SiteHeader } from "@/components/layout/site-header";
 import { SiteFooter } from "@/components/layout/site-footer";
@@ -36,17 +35,27 @@ export const metadata: Metadata = {
     follow: true,
     googleBot: { index: true, follow: true, "max-image-preview": "large", "max-snippet": -1 },
   },
+  // AdSense ownership verification (renders <meta name="google-adsense-account">).
+  other: { "google-adsense-account": "ca-pub-9239647072635918" },
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
-  const adsenseClient = process.env.NEXT_PUBLIC_ADSENSE_CLIENT;
+// Google AdSense publisher ID. Public value — safe to ship in the client bundle.
+const ADSENSE_CLIENT = "ca-pub-9239647072635918";
 
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${sora.variable}`} suppressHydrationWarning>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: jsonLd(...organizationSchema()) }}
+        />
+        {/* Google AdSense — loaded in <head> so it's in the static HTML for
+            ownership verification and ad serving. */}
+        <script
+          async
+          src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+          crossOrigin="anonymous"
         />
       </head>
       <body className="min-h-screen font-sans">
@@ -59,16 +68,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <SiteHeader />
         <main id="main">{children}</main>
         <SiteFooter />
-
-        {adsenseClient && (
-          <Script
-            id="adsbygoogle-init"
-            async
-            strategy="afterInteractive"
-            src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${adsenseClient}`}
-            crossOrigin="anonymous"
-          />
-        )}
       </body>
     </html>
   );
