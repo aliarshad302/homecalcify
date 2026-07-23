@@ -258,30 +258,83 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "asphalt-vs-concrete-driveway",
-    "title": "Asphalt vs Concrete Driveway",
-    "description": "Compare asphalt and concrete driveways on cost, lifespan, maintenance, and climate.",
-    "answer": "Asphalt driveways cost less up front ($3–$7 per sq ft) and install faster, but need resealing every few years and last 15–20 years. Concrete costs more ($6–$12 per sq ft) and lasts 25–40 years with less maintenance. Asphalt suits cold climates; concrete suits hot ones.",
-    "updated": "2026-06-11",
+    "title": "Asphalt vs Concrete Driveway: Cost, Lifespan & Which to Choose",
+    "description": "Compare asphalt and concrete driveways on cost, lifespan, maintenance, and climate to decide which material is right for your home.",
+    "answer": "Asphalt driveways cost less up front ($3–$7 per sq ft) and install faster, but need resealing every few years and last 15–20 years. Concrete costs more ($6–$12 per sq ft) and lasts 25–40 years with less maintenance. Asphalt is the better fit for cold, freeze-thaw climates, while concrete holds up better in hot regions and offers more design options.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Asphalt and concrete are the two most popular driveway materials, and the right choice depends on your budget, climate, and how long you plan to stay in the home. Both create a durable, low-maintenance surface — but they age very differently and the total cost of ownership isn't always what the sticker price suggests.",
+      "This guide compares asphalt and concrete driveways head-to-head on cost, lifespan, maintenance, appearance, and climate, so you can pick the material that makes the most sense for your property."
+    ],
+    "keyTakeaways": [
+      "Asphalt costs $3–$7/ft² installed; concrete costs $6–$12/ft².",
+      "Asphalt lasts 15–20 years; concrete lasts 25–40 years.",
+      "Asphalt needs resealing every 3–5 years; concrete needs little upkeep.",
+      "Asphalt flexes in freeze-thaw climates; concrete resists heat and rutting.",
+      "Concrete offers more finishes (stamped, colored, exposed aggregate)."
+    ],
     "calculatorSlug": "asphalt-calculator",
     "category": "driveway-paving",
     "sections": [
       {
-        "heading": "Cost and lifespan",
-        "bullets": [
-          "Asphalt: lower up-front cost, 15–20 year life, reseal every 3–5 years",
-          "Concrete: higher up-front cost, 25–40 year life, minimal maintenance"
+        "heading": "Asphalt vs concrete at a glance",
+        "paragraphs": [
+          "The clearest way to compare the two is side by side across the factors that actually affect your wallet and your weekends. Asphalt wins on upfront price and speed; concrete wins on longevity and looks."
+        ],
+        "table": {
+          "columns": ["Factor", "Asphalt", "Concrete"],
+          "rows": [
+            ["Installed cost", "$3 – $7 / ft²", "$6 – $12 / ft²"],
+            ["Lifespan", "15–20 years", "25–40 years"],
+            ["Maintenance", "Reseal every 3–5 yrs", "Minimal, occasional seal"],
+            ["Install time", "1–2 days, cure fast", "Cure 5–7 days before use"],
+            ["Best climate", "Cold, freeze-thaw", "Hot, sunny"],
+            ["Appearance", "Black, uniform", "Gray or decorative finishes"]
+          ]
+        }
+      },
+      {
+        "heading": "Cost and long-term value",
+        "paragraphs": [
+          "Asphalt is cheaper to install — often half the price of concrete — which makes it attractive for large or rural driveways. But it needs resealing every few years and resurfacing after 15–20, so the lifetime cost narrows over time. Concrete costs more to pour but can last twice as long with little upkeep, so for a forever home it often works out cheaper per year.",
+          "If you plan to sell within a decade, asphalt's lower upfront cost usually makes sense. For a long-term home, concrete's durability and curb appeal tend to win."
         ]
       },
       {
-        "heading": "Climate",
+        "heading": "How climate decides it",
         "paragraphs": [
-          "Asphalt stays flexible in freeze-thaw climates and is easy to repair. Concrete can crack in hard freezes but resists softening and rutting in extreme heat."
+          "Climate is often the deciding factor. Asphalt stays slightly flexible, so it tolerates the expansion and contraction of freeze-thaw winters and is easy to patch — that's why it dominates in northern states. Concrete can crack and suffer surface spalling from repeated hard freezes and de-icing salt, but it resists the softening and rutting that hot summer sun causes in asphalt, making it the better pick across the Sun Belt."
+        ]
+      },
+      {
+        "heading": "Maintenance and repairs",
+        "bullets": [
+          "Asphalt: seal coat every 3–5 years; cracks and potholes are cheap and easy to patch.",
+          "Concrete: seal every few years to resist stains and salt; cracks are harder to repair invisibly.",
+          "Both: keep water draining away from the surface to maximize lifespan.",
+          "Asphalt repairs blend in better; concrete repairs often show as a color mismatch."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "Is asphalt or concrete cheaper for a driveway?",
+        "answer": "Asphalt is cheaper up front — about $3–$7 per square foot versus $6–$12 for concrete. Over the full lifespan the gap narrows because asphalt needs more maintenance and replacement."
+      },
+      {
+        "question": "Which lasts longer, asphalt or concrete?",
+        "answer": "Concrete lasts longer — 25–40 years versus 15–20 for asphalt — and needs less routine maintenance."
+      },
+      {
+        "question": "Which is better for cold climates?",
+        "answer": "Asphalt. It flexes with freeze-thaw cycles and is easy to repair, while concrete is more prone to cracking and salt damage in hard winters."
+      }
+    ],
     "related": [
-      "how-much-concrete-do-i-need"
+      "how-much-concrete-do-i-need",
+      "asphalt-driveway-cost",
+      "concrete-driveway-cost",
+      "cost-to-pave-a-driveway"
     ]
   },
   {
@@ -726,32 +779,83 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "concrete-bag-coverage-chart",
-    "title": "Concrete Bag Coverage Chart",
-    "description": "A quick reference chart for how much volume each size of concrete bag yields and how many bags make a cubic yard.",
-    "answer": "A 40-lb bag of concrete yields about 0.30 cubic feet, a 60-lb bag about 0.45 cubic feet, and an 80-lb bag about 0.60 cubic feet. It takes roughly 90, 60, and 45 bags respectively to make one cubic yard (27 cubic feet).",
-    "updated": "2026-06-11",
+    "title": "Concrete Bag Coverage Chart: Yield & Bags Per Yard",
+    "description": "A quick reference chart for how much volume each size of concrete bag yields, how many bags make a cubic yard, and how many bags you need for common projects.",
+    "answer": "A 40-lb bag of concrete yields about 0.30 cubic feet, a 60-lb bag about 0.45 cubic feet, and an 80-lb bag about 0.60 cubic feet. It takes roughly 90, 60, and 45 bags respectively to make one cubic yard (27 cubic feet). To find how many bags you need, calculate your project's volume in cubic feet and divide by the yield of your bag size.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Bagged concrete is the go-to for small pours — fence posts, footings, small pads, and repairs — but the bag doesn't tell you how much volume it actually fills once mixed. This coverage chart translates bag weight into cubic feet so you can buy the right number and avoid a mid-job trip to the store.",
+      "Below you'll find the yield for every common bag size, how many bags make a cubic yard, and a ready-reckoner for typical projects like slabs and post holes."
+    ],
+    "keyTakeaways": [
+      "A 60-lb bag yields ~0.45 ft³; an 80-lb bag yields ~0.60 ft³.",
+      "It takes ~60 sixty-pound bags or ~45 eighty-pound bags per cubic yard.",
+      "Find bags needed = project volume (ft³) ÷ bag yield.",
+      "Above about one cubic yard, ready-mix delivery is cheaper than bags.",
+      "Always buy a couple of extra bags for waste and spillage."
+    ],
     "calculatorSlug": "concrete-calculator",
     "category": "concrete",
     "sections": [
       {
-        "heading": "Yield per bag",
-        "bullets": [
-          "40 lb bag ≈ 0.30 ft³ (≈ 90 bags per yard)",
-          "50 lb bag ≈ 0.375 ft³ (≈ 72 bags per yard)",
-          "60 lb bag ≈ 0.45 ft³ (≈ 60 bags per yard)",
-          "80 lb bag ≈ 0.60 ft³ (≈ 45 bags per yard)"
-        ]
+        "heading": "Concrete bag yield chart",
+        "paragraphs": [
+          "Each bag of pre-mixed concrete yields a set volume once water is added. The heavier the bag, the more cubic feet it fills — and the fewer bags you need for the same pour."
+        ],
+        "table": {
+          "columns": ["Bag size", "Yield (ft³)", "Bags per cubic yard", "Bags per 10 ft³"],
+          "rows": [
+            ["40 lb", "0.30 ft³", "~90", "~34"],
+            ["50 lb", "0.375 ft³", "~72", "~27"],
+            ["60 lb", "0.45 ft³", "~60", "~23"],
+            ["80 lb", "0.60 ft³", "~45", "~17"]
+          ]
+        }
       },
       {
         "heading": "How to use the chart",
         "paragraphs": [
-          "Calculate your project volume in cubic feet, then divide by the yield of the bag size you plan to buy. Round up and add a couple of bags for waste."
+          "First, calculate your project volume: multiply length × width × thickness in feet to get cubic feet. Then divide that by the yield of the bag size you plan to buy, round up, and add two or three bags for waste. For example, a 3 ft × 3 ft pad at 4 inches thick is 3 × 3 × 0.33 = 3 cubic feet, which is about 7 eighty-pound bags."
+        ]
+      },
+      {
+        "heading": "Bags needed for common projects",
+        "table": {
+          "columns": ["Project", "Volume", "60 lb bags", "80 lb bags"],
+          "rows": [
+            ["Fence post hole (10\"×24\")", "~0.9 ft³", "2", "2"],
+            ["3×3 ft pad, 4\" thick", "~3 ft³", "7", "5"],
+            ["Sonotube 8\"×4 ft", "~1.4 ft³", "3", "3"],
+            ["10×10 ft slab, 4\" thick", "~33 ft³", "74", "56"]
+          ]
+        }
+      },
+      {
+        "heading": "When to switch to ready-mix",
+        "paragraphs": [
+          "Mixing bags by hand is fine up to about one cubic yard (roughly 45–60 bags). Beyond that, the labor, water, and risk of cold joints between batches make ready-mix delivery both cheaper and more reliable. If your project needs more than a cubic yard, price out a ready-mix truck before buying pallets of bags."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many 80-lb bags of concrete are in a cubic yard?",
+        "answer": "About 45. An 80-lb bag yields roughly 0.60 cubic feet, and a cubic yard is 27 cubic feet, so 27 ÷ 0.60 ≈ 45 bags."
+      },
+      {
+        "question": "How many 60-lb bags make a yard of concrete?",
+        "answer": "About 60. A 60-lb bag yields around 0.45 cubic feet, so 27 ÷ 0.45 ≈ 60 bags per cubic yard."
+      },
+      {
+        "question": "How do I know how many bags I need?",
+        "answer": "Calculate your project volume in cubic feet (length × width × thickness), then divide by the bag yield — 0.45 for 60-lb bags or 0.60 for 80-lb bags — and round up."
+      }
+    ],
     "related": [
-      "how-much-concrete-do-i-need"
+      "how-much-concrete-do-i-need",
+      "concrete-slab-cost",
+      "bagged-concrete-vs-ready-mix",
+      "is-it-cheaper-to-pour-your-own-concrete"
     ]
   },
   {
@@ -1365,39 +1469,89 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "cost-to-insulate-a-house",
-    "title": "How Much Does It Cost to Insulate a House?",
-    "description": "Insulation costs by type and area, and where insulating pays back the fastest.",
-    "answer": "Insulating a house costs about $1–$2.40 per square foot for fiberglass batts, $1–$2.50 for blown-in, and $3–$7 for spray foam, installed. A typical attic runs $1,500–$3,500. The attic gives the fastest energy payback, so start there.",
-    "updated": "2026-06-12",
+    "title": "How Much Does It Cost to Insulate a House? (2026)",
+    "description": "Insulation costs by type, area, and whole-house, where insulating pays back fastest, and how to estimate your own project.",
+    "answer": "Insulating a house costs about $1–$2.40 per square foot for fiberglass batts, $1–$2.50 for blown-in, and $3–$7 for spray foam, installed. A typical attic runs $1,500–$3,500, and whole-house insulation for an average home ranges from $3,000 to $10,000 depending on scope and material. The attic gives the fastest energy payback, so start there.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Insulation is one of the few home upgrades that pays you back every month through lower heating and cooling bills. But the cost swings widely depending on what you insulate — just the attic, or walls, floors, and crawlspaces too — and which material you choose.",
+      "This guide breaks down what it costs to insulate a house in 2026 by insulation type, by area, and for a whole home, then shows where your first dollar delivers the biggest energy savings."
+    ],
+    "keyTakeaways": [
+      "Batts cost $1–$2.40/ft²; blown-in $1–$2.50; spray foam $3–$7.",
+      "A typical attic runs $1,500–$3,500 installed.",
+      "Whole-house insulation ranges from $3,000 to $10,000.",
+      "The attic gives the fastest payback — insulate it first.",
+      "Air-seal gaps before adding insulation for full performance."
+    ],
     "calculatorSlug": "insulation-calculator",
     "category": "insulation",
     "sections": [
       {
-        "heading": "Cost by insulation type",
-        "bullets": [
-          "Fiberglass batts: $1.00–$2.40/ft²",
-          "Blown-in cellulose: $1.00–$2.50/ft²",
-          "Spray foam: $3.00–$7.00/ft²"
-        ]
+        "heading": "Insulation cost by type",
+        "paragraphs": [
+          "The material you choose sets the per-square-foot price. Batts are cheapest and DIY-friendly, blown-in is ideal for attics, and spray foam costs the most but delivers the highest R-value per inch while air-sealing at the same time."
+        ],
+        "table": {
+          "columns": ["Insulation type", "Cost per ft² (installed)", "Best for"],
+          "rows": [
+            ["Fiberglass batts", "$1.00 – $2.40", "Walls, budget jobs"],
+            ["Blown-in cellulose", "$1.00 – $2.50", "Attics, retrofits"],
+            ["Blown-in fiberglass", "$1.00 – $2.00", "Attics, fast fill"],
+            ["Closed-cell spray foam", "$3.00 – $7.00", "Air-sealing, rim joists"]
+          ]
+        }
+      },
+      {
+        "heading": "Cost by area of the home",
+        "paragraphs": [
+          "Where you insulate matters as much as the material. The attic is the cheapest and highest-impact area; walls and crawlspaces cost more per square foot because access is harder."
+        ],
+        "table": {
+          "columns": ["Area", "Typical cost", "Notes"],
+          "rows": [
+            ["Attic", "$1,500 – $3,500", "Highest energy return"],
+            ["Walls (retrofit blown-in)", "$1.50 – $3.50 / ft²", "Drilled and filled"],
+            ["Crawlspace / basement", "$1,500 – $4,000", "Often needs a vapor barrier"],
+            ["Whole house", "$3,000 – $10,000", "Depends on scope and material"]
+          ]
+        }
       },
       {
         "heading": "Where to spend first",
         "paragraphs": [
-          "The attic loses the most heat, so bringing it to R-38–R-60 delivers the biggest savings per dollar. Air-seal gaps before adding insulation for full performance."
+          "The attic loses the most heat because warm air rises, so bringing it to R-38–R-60 delivers the biggest savings per dollar. After the attic, air-sealing gaps around penetrations, then insulating rim joists and crawlspaces gives the next-best return. Walls are worth doing during a remodel but are the most disruptive to retrofit."
+        ]
+      },
+      {
+        "heading": "How to estimate your insulation cost",
+        "paragraphs": [
+          "Measure the square footage of the area you want to insulate, choose a material, and multiply by the installed price per square foot. Our insulation calculator does this for you and factors in the insulation type, giving a fast material-and-labor estimate you can take to contractors."
         ]
       }
     ],
     "faqs": [
       {
+        "question": "How much does it cost to insulate a whole house?",
+        "answer": "Whole-house insulation typically costs $3,000–$10,000, depending on how many areas you insulate and whether you use batts, blown-in, or spray foam."
+      },
+      {
         "question": "Is spray foam worth the cost?",
-        "answer": "It costs more but gives the highest R-value per inch and air-seals, often cutting energy bills the most."
+        "answer": "It costs more but gives the highest R-value per inch and air-seals at the same time, often cutting energy bills the most — especially in rim joists and hard-to-seal areas."
       },
       {
         "question": "What R-value do I need?",
-        "answer": "R-38 to R-60 in attics and R-13 to R-21 in walls, depending on your climate."
+        "answer": "R-38 to R-60 in attics and R-13 to R-21 in walls, depending on your climate zone."
+      },
+      {
+        "question": "Where should I insulate first?",
+        "answer": "The attic. It gives the fastest payback because most heat is lost through the roof."
       }
     ],
     "related": [
+      "attic-insulation-cost",
+      "spray-foam-vs-fiberglass-insulation",
+      "what-r-value-do-i-need",
       "how-much-concrete-do-i-need"
     ]
   },
@@ -2837,41 +2991,74 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "how-long-does-concrete-take-to-cure",
-    "title": "How Long Does Concrete Take to Cure?",
-    "description": "Concrete curing times explained — when you can walk, drive, and build on a fresh slab.",
-    "answer": "Concrete is walkable in 24–48 hours, ready for vehicles in about 7 days, and fully cured at roughly 28 days when it reaches ~90%+ of its strength. Curing continues slowly for months, but 28 days is the standard benchmark for full design strength.",
-    "updated": "2026-06-12",
+    "title": "How Long Does Concrete Take to Cure? (Full Timeline)",
+    "description": "Concrete curing times explained — when you can walk, drive, and build on a fresh slab, and how to cure it for maximum strength.",
+    "answer": "Concrete is walkable in 24–48 hours, ready for vehicles in about 7 days, and fully cured at roughly 28 days when it reaches 90%+ of its design strength. Curing continues slowly for months, but 28 days is the standard benchmark. Concrete hardens through hydration, not drying, so keeping it moist for the first week is what makes it strong and crack-resistant.",
+    "updated": "2026-07-09",
+    "intro": [
+      "One of the most common — and costly — concrete mistakes is using a fresh slab too soon. Concrete looks solid within a day, but it's still gaining strength for weeks, and loading it early can cause cracks that never fully heal.",
+      "This guide walks through the full curing timeline — when you can walk on it, park on it, and build on it — and explains how to cure concrete properly so it reaches its full strength."
+    ],
+    "keyTakeaways": [
+      "Walkable in 24–48 hours.",
+      "Ready for cars at about 7 days (~70% strength).",
+      "Fully cured at 28 days (design strength).",
+      "Concrete cures by hydration — keep it moist, don't let it dry out.",
+      "Cold weather slows curing; warm weather speeds it."
+    ],
     "calculatorSlug": "concrete-calculator",
     "category": "concrete",
     "sections": [
       {
-        "heading": "Curing timeline",
-        "bullets": [
-          "24–48 hours: safe to walk on",
-          "7 days: ~70% strength, light vehicles OK",
-          "28 days: full design strength"
+        "heading": "Concrete curing timeline",
+        "paragraphs": [
+          "Concrete gains strength quickly at first, then more slowly over the following weeks. Here's what's safe at each stage for a standard slab in normal conditions."
+        ],
+        "table": {
+          "columns": ["Time after pour", "Strength gained", "What's safe"],
+          "rows": [
+            ["24–48 hours", "~25–35%", "Walk on it, remove forms"],
+            ["7 days", "~70%", "Light vehicles, foot traffic"],
+            ["14 days", "~85%", "Most normal use"],
+            ["28 days", "~100%", "Full design strength, heavy loads"]
+          ]
+        }
+      },
+      {
+        "heading": "Why you must keep it moist",
+        "paragraphs": [
+          "Concrete doesn't harden by drying — it hardens through a chemical reaction called hydration between cement and water. If the surface dries out too fast, that reaction stops near the top and you get a weaker, dustier, more crack-prone slab. Keeping concrete damp for the first 7 days — with a curing compound, plastic sheeting, wet burlap, or periodic misting — lets hydration finish and can add significant strength."
         ]
       },
       {
-        "heading": "Keep it moist",
-        "paragraphs": [
-          "Concrete cures through hydration, not drying. Keeping it damp for the first 7 days — with curing compound, plastic sheeting, or misting — produces a stronger, crack-resistant slab."
+        "heading": "How weather affects curing",
+        "bullets": [
+          "Hot, dry, or windy weather dries the surface fast — mist or cover it.",
+          "Cold weather (below 50°F) slows curing; use blankets or admixtures.",
+          "Below freezing, fresh concrete can be ruined — protect it or delay the pour.",
+          "Humidity helps; the slower and moister the cure, the stronger the result."
         ]
       }
     ],
     "faqs": [
       {
         "question": "Can I speed up concrete curing?",
-        "answer": "Warm conditions and accelerator admixtures speed early strength, but don't let it dry out — that weakens it."
+        "answer": "Warm conditions and accelerator admixtures speed early strength, but don't let it dry out — that weakens it. There's no safe way to skip the 28-day full-strength benchmark for heavy loads."
       },
       {
         "question": "How soon can I drive on new concrete?",
-        "answer": "Wait about 7 days for cars and 28 days for heavy vehicles to avoid cracking."
+        "answer": "Wait about 7 days for regular cars and 28 days for heavy vehicles or RVs to avoid cracking."
+      },
+      {
+        "question": "What's the difference between setting and curing?",
+        "answer": "Setting is the initial hardening in the first several hours; curing is the weeks-long process of gaining full strength through hydration."
       }
     ],
     "related": [
       "how-much-concrete-do-i-need",
-      "is-it-cheaper-to-pour-your-own-concrete"
+      "is-it-cheaper-to-pour-your-own-concrete",
+      "how-thick-should-a-concrete-slab-be",
+      "concrete-slab-cost"
     ]
   },
   {
@@ -3155,76 +3342,162 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "how-many-tiles-do-i-need",
-    "title": "How Many Tiles Do I Need?",
-    "description": "Calculate tile counts for floors and walls, including waste for cuts and patterns.",
-    "answer": "To find how many tiles you need, divide the area (length × width in feet) by the area of one tile in square feet, then add 10–20% for cuts and breakage. A 10×8 ft floor with 12-inch tiles needs about 88 tiles including 10% waste.",
-    "updated": "2026-06-11",
+    "title": "How Many Tiles Do I Need? (Floor & Wall Calculator Guide)",
+    "description": "Calculate exactly how many tiles you need for floors and walls, including the right waste allowance for cuts and patterns.",
+    "answer": "To find how many tiles you need, divide the area (length × width in feet) by the area of one tile in square feet, then add 10–20% for cuts and breakage. A 10×8 ft floor with 12-inch tiles needs about 88 tiles including 10% waste. Always round up to whole boxes and keep a spare box for repairs.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Tile is easy to under-order and expensive to top up later, because dye lots and production runs change between batches. Getting the count right the first time means measuring your area carefully and adding the correct waste allowance for your layout.",
+      "This guide shows how to calculate tile counts for both floors and walls, how much waste to add for each pattern, and how to handle borders and irregular rooms so you buy the right amount."
+    ],
+    "keyTakeaways": [
+      "Tiles needed = area ÷ tile size, plus waste.",
+      "Add 10% waste for straight lay, 15% diagonal, up to 20% for patterns.",
+      "Tile is sold by the box — round up and keep a spare.",
+      "Measure walls and floors separately for a full bathroom.",
+      "Larger tiles cut waste on open floors; small tiles suit detailed areas."
+    ],
     "calculatorSlug": "tile-calculator",
     "category": "flooring",
     "sections": [
       {
-        "heading": "Waste by layout",
-        "bullets": [
-          "Straight lay: add 10%",
-          "Diagonal: add 15%",
-          "Herringbone or complex patterns: add up to 20%"
+        "heading": "How to calculate tile quantity",
+        "paragraphs": [
+          "Start with the surface area: multiply length × width in feet for a floor, or height × width for a wall. Then divide by the coverage of a single tile in square feet — a 12-inch tile covers 1 ft², an 18-inch tile covers 2.25 ft². Finally, add a waste factor for cuts and breakage. For irregular rooms, split the space into rectangles, total the areas, then apply waste."
         ]
       },
       {
-        "heading": "Buy by the box",
-        "paragraphs": [
-          "Tile is sold by the box. Round your total up to full boxes and keep a spare for future repairs — dye lots change between production runs."
+        "heading": "Waste allowance by layout",
+        "table": {
+          "columns": ["Layout", "Waste to add", "Why"],
+          "rows": [
+            ["Straight lay", "10%", "Minimal cuts at edges"],
+            ["Diagonal", "15%", "More angled cuts"],
+            ["Herringbone / complex", "15–20%", "Many small offcuts"],
+            ["Large-format tile", "10–12%", "Bigger cuts waste more per tile"]
+          ]
+        }
+      },
+      {
+        "heading": "Tiles per 100 square feet",
+        "table": {
+          "columns": ["Tile size", "Tiles per 100 ft²", "With 10% waste"],
+          "rows": [
+            ["12 × 12 in", "100", "110"],
+            ["18 × 18 in", "45", "50"],
+            ["24 × 24 in", "25", "28"],
+            ["6 × 24 in (plank)", "100", "110"]
+          ]
+        }
+      },
+      {
+        "heading": "Don't forget the extras",
+        "bullets": [
+          "Buy by the box and round up — partial boxes usually can't be returned.",
+          "Keep one sealed spare box; dye lots change between runs.",
+          "Account for borders, accents, and trim tiles separately.",
+          "For a shower or backsplash, measure each wall and add them up."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many 12x12 tiles do I need for 100 square feet?",
+        "answer": "About 110 tiles — 100 to cover the area plus 10% for cuts and breakage. A 12×12 tile covers exactly one square foot."
+      },
+      {
+        "question": "How much extra tile should I buy?",
+        "answer": "Add 10% for a straight layout, 15% for diagonal, and up to 20% for herringbone or complex patterns."
+      },
+      {
+        "question": "Should I buy an extra box of tile?",
+        "answer": "Yes. Keep one sealed spare box so future repairs match — tile color varies slightly between production runs."
+      }
+    ],
     "related": [
       "flooring-installation-cost",
+      "cost-to-tile-a-bathroom",
+      "cost-to-tile-a-floor",
       "how-much-concrete-do-i-need"
     ]
   },
   {
     "slug": "how-much-concrete-do-i-need",
-    "title": "How Much Concrete Do I Need?",
-    "description": "Learn how to calculate how much concrete you need in cubic yards or bags, with formulas, examples, and a coverage chart.",
-    "answer": "To find how much concrete you need, multiply length × width × thickness (in feet) to get cubic feet, then divide by 27 for cubic yards. Add 5–10% for waste. A 10×10 ft slab at 4 inches needs about 1.23 cubic yards, or roughly 56 80-lb bags.",
-    "updated": "2026-06-11",
+    "title": "How Much Concrete Do I Need? (Formula, Examples & Chart)",
+    "description": "Learn how to calculate how much concrete you need in cubic yards or bags, with the formula, worked examples, and a coverage chart for common slab sizes.",
+    "answer": "To find how much concrete you need, multiply length × width × thickness (in feet) to get cubic feet, then divide by 27 for cubic yards. Add 5–10% for waste. A 10×10 ft slab at 4 inches needs about 1.23 cubic yards, or roughly 56 eighty-pound bags. For anything over one cubic yard, ready-mix delivery is usually cheaper than bags.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Ordering concrete is unforgiving: too little and you halt the pour and risk a weak cold joint; too much and you've paid for material you'll shovel into a wheelbarrow to dispose of. Getting the volume right the first time is the whole game.",
+      "This guide gives you the simple formula, a couple of worked examples, and a coverage chart so you can figure out exactly how much concrete you need for a slab, footing, or set of post holes — then decide whether to buy bags or order ready-mix."
+    ],
+    "keyTakeaways": [
+      "Concrete volume = length × width × thickness (in feet) ÷ 27 for cubic yards.",
+      "Always add 5–10% for waste and uneven subgrade.",
+      "A cubic yard ≈ 45 eighty-pound bags or 60 sixty-pound bags.",
+      "Under ~1 yd³, bags are convenient; above that, order ready-mix.",
+      "Use 4-inch thickness for patios, 5–6 inches for driveways."
+    ],
     "calculatorSlug": "concrete-calculator",
     "category": "concrete",
     "sections": [
       {
         "heading": "The basic formula",
         "paragraphs": [
-          "Concrete is ordered by volume. Measure your slab in feet, convert the thickness from inches to feet (divide by 12), then multiply all three dimensions for cubic feet. Divide by 27 to get cubic yards — the unit ready-mix is sold in."
+          "Concrete is ordered by volume. Measure your slab in feet, convert the thickness from inches to feet (divide by 12), then multiply all three dimensions for cubic feet. Divide by 27 to get cubic yards — the unit ready-mix is sold in. Then add 5–10% for waste.",
+          "Formula: Cubic yards = (Length ft × Width ft × Thickness ft) ÷ 27 × waste factor."
         ]
       },
       {
-        "heading": "Don't forget waste",
+        "heading": "Worked example",
         "paragraphs": [
-          "Always add 5–10%. Subgrades are rarely perfectly level, and running short mid-pour creates a weak cold joint. A little extra is far cheaper than a second delivery."
+          "Say you're pouring a 10 ft × 10 ft patio at 4 inches thick. Convert 4 inches to feet (4 ÷ 12 = 0.333 ft). Multiply: 10 × 10 × 0.333 = 33.3 cubic feet. Divide by 27 = 1.23 cubic yards. Add 10% waste and you'd order about 1.36 cubic yards — or roughly 56 eighty-pound bags if you're mixing by hand."
         ]
+      },
+      {
+        "heading": "Concrete needed by slab size",
+        "table": {
+          "columns": ["Slab size (4\" thick)", "Cubic yards", "80 lb bags"],
+          "rows": [
+            ["8 × 8 ft", "0.79 yd³", "~36"],
+            ["10 × 10 ft", "1.23 yd³", "~56"],
+            ["12 × 12 ft", "1.78 yd³", "~80"],
+            ["20 × 20 ft", "4.94 yd³", "ready-mix"]
+          ]
+        }
       },
       {
         "heading": "Bags vs ready-mix",
         "bullets": [
           "Under ~1 cubic yard: bagged concrete is convenient.",
           "1 cubic yard or more: ready-mix delivery is usually cheaper and faster.",
-          "A cubic yard ≈ 45 80-lb bags or 60 60-lb bags."
+          "A cubic yard ≈ 45 eighty-pound bags or 60 sixty-pound bags.",
+          "Mixing many bags risks cold joints between batches — order a truck instead."
         ]
       }
     ],
     "faqs": [
       {
         "question": "How many bags of concrete in a cubic yard?",
-        "answer": "About 45 80-lb bags or 60 60-lb bags make one cubic yard (27 cubic feet)."
+        "answer": "About 45 eighty-pound bags or 60 sixty-pound bags make one cubic yard (27 cubic feet)."
+      },
+      {
+        "question": "How much concrete do I need for a 10x10 slab?",
+        "answer": "A 10×10 ft slab at 4 inches thick needs about 1.23 cubic yards, or roughly 56 eighty-pound bags, before adding waste."
       },
       {
         "question": "How thick should a slab be?",
         "answer": "4 inches for patios and walkways; 5–6 inches for driveways and anywhere vehicles park."
+      },
+      {
+        "question": "How much extra concrete should I order?",
+        "answer": "Add 5–10% for spillage and uneven subgrade. Running short mid-pour creates a weak cold joint, so a little extra is cheap insurance."
       }
     ],
     "related": [
       "concrete-bag-coverage-chart",
+      "concrete-slab-cost",
+      "how-long-does-concrete-take-to-cure",
       "asphalt-vs-concrete-driveway"
     ]
   },
@@ -3434,86 +3707,219 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "how-much-drywall-do-i-need",
-    "title": "How Much Drywall Do I Need?",
-    "description": "Estimate drywall sheets, joint compound, tape, and screws for any room.",
-    "answer": "To calculate drywall, find the total wall area (perimeter × height) plus the ceiling if covering it, add 10% for waste, and divide by the sheet size (32 sq ft for a 4×8 sheet). A 14×12 ft room with 8 ft walls and a ceiling needs about 21 sheets.",
-    "updated": "2026-06-11",
+    "title": "How Much Drywall Do I Need? (Sheets & Supplies)",
+    "description": "Estimate how many drywall sheets you need plus joint compound, tape, and screws for any room, with a formula and worked example.",
+    "answer": "To calculate drywall, find the total wall area (perimeter × height) plus the ceiling if covering it, add 10% for waste, and divide by the sheet size (32 sq ft for a 4×8 sheet). A 14×12 ft room with 8 ft walls and a ceiling needs about 21 sheets, plus joint compound, tape, and screws.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Drywall is cheap per sheet but awkward to shop for twice, so a good estimate saves you a second trip and the hassle of returning surplus. The count depends on your room's wall and ceiling area, the sheet size you choose, and a small waste allowance for cuts around doors, windows, and outlets.",
+      "This guide shows how to calculate the number of drywall sheets you need, plus the joint compound, tape, and screws to finish the job — with a worked example you can follow for your own room."
+    ],
+    "keyTakeaways": [
+      "Sheets = (wall area + ceiling area) × 1.10 ÷ sheet size.",
+      "A 4×8 sheet covers 32 ft²; 4×10 covers 40; 4×12 covers 48.",
+      "Add about 10% for waste and cuts.",
+      "Budget ~1 screw per ft² and one compound bucket per ~12 sheets.",
+      "Bigger sheets mean fewer seams to tape but are heavier to lift."
+    ],
     "calculatorSlug": "drywall-calculator",
     "category": "drywall",
     "sections": [
       {
-        "heading": "Sheet sizes",
-        "bullets": [
-          "4×8 ft = 32 ft² (easiest to handle)",
-          "4×10 ft = 40 ft² (fewer seams)",
-          "4×12 ft = 48 ft² (fewest seams, heaviest)"
+        "heading": "How to calculate drywall sheets",
+        "paragraphs": [
+          "Add up the wall area (the room's perimeter × ceiling height) plus the ceiling area if you're covering it. Add 10% for waste, then divide by the coverage of your chosen sheet size. For a 14 × 12 ft room with 8 ft ceilings: walls are (14+12) × 2 × 8 = 416 ft², the ceiling is 168 ft², totaling 584 ft². Add 10% (≈642 ft²) and divide by 32 for 4×8 sheets ≈ 21 sheets."
         ]
       },
       {
-        "heading": "Finishing supplies",
-        "paragraphs": [
-          "Budget about 0.053 lb of joint compound and 0.39 ft of tape per square foot of drywall, plus roughly one screw per square foot."
+        "heading": "Drywall sheet sizes",
+        "table": {
+          "columns": ["Sheet size", "Coverage", "Best for"],
+          "rows": [
+            ["4 × 8 ft", "32 ft²", "Easiest to handle, DIY"],
+            ["4 × 10 ft", "40 ft²", "Fewer seams on tall walls"],
+            ["4 × 12 ft", "48 ft²", "Fewest seams, needs helpers"]
+          ]
+        }
+      },
+      {
+        "heading": "Finishing supplies you'll need",
+        "bullets": [
+          "Joint compound: about one 5-gallon bucket per 12 sheets.",
+          "Drywall tape: roughly 0.39 linear ft per ft² of drywall.",
+          "Screws: about one per square foot (roughly 1 lb per 5 sheets).",
+          "Corner bead for every outside corner, plus a sanding sponge or pole sander."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many drywall sheets for a 12x12 room?",
+        "answer": "About 17 sheets of 4×8 board for walls and ceiling at 8-foot height, including 10% waste."
+      },
+      {
+        "question": "How much joint compound do I need?",
+        "answer": "Budget roughly one 5-gallon bucket of all-purpose compound per 12 sheets of drywall, or about 0.053 lb per square foot."
+      },
+      {
+        "question": "What size drywall sheet should I use?",
+        "answer": "4×8 sheets are easiest for DIY; 4×12 sheets reduce seams on long walls but need two people to handle safely."
+      }
+    ],
     "related": [
+      "cost-to-drywall-a-room",
+      "drywall-vs-plaster",
+      "how-much-paint-do-i-need",
       "how-much-concrete-do-i-need"
     ]
   },
   {
     "slug": "how-much-mulch-do-i-need",
-    "title": "How Much Mulch Do I Need?",
-    "description": "Calculate mulch in cubic yards or bags based on your bed size and depth, with a coverage reference.",
-    "answer": "To find how much mulch you need, multiply bed length × width for the area, multiply by depth in feet, and divide by 27 for cubic yards. One cubic yard covers about 108 sq ft at 3 inches deep, or roughly 13.5 standard 2-cubic-foot bags.",
-    "updated": "2026-06-11",
+    "title": "How Much Mulch Do I Need? (Yards, Bags & Coverage)",
+    "description": "Calculate mulch in cubic yards or bags from your bed size and depth, with a coverage chart and the right depth for healthy beds.",
+    "answer": "To find how much mulch you need, multiply bed length × width for the area, multiply by depth in feet, and divide by 27 for cubic yards. One cubic yard covers about 108 sq ft at 3 inches deep, or roughly 13.5 standard 2-cubic-foot bags. For beds over about a cubic yard, bulk delivery is much cheaper than bags.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Mulch is one of the easiest things to under-buy, because a thin-looking bed swallows far more than people expect once you spread it 2–3 inches deep. Measuring first — and knowing how coverage changes with depth — saves you repeat trips and money.",
+      "This guide shows how to calculate mulch in cubic yards and bags, the ideal depth for weed control and moisture, and a coverage chart so you order exactly what your beds need."
+    ],
+    "keyTakeaways": [
+      "Mulch (yd³) = bed area × depth (ft) ÷ 27.",
+      "One cubic yard covers ~108 ft² at 3 inches deep.",
+      "It takes ~13.5 standard 2-ft³ bags to equal one cubic yard.",
+      "Aim for 2–3 inches deep; 1 inch for a seasonal refresh.",
+      "Bulk delivery beats bags for anything over a cubic yard."
+    ],
     "calculatorSlug": "mulch-calculator",
     "category": "landscaping",
     "sections": [
       {
-        "heading": "Pick the right depth",
+        "heading": "How to calculate mulch",
         "paragraphs": [
-          "A 2–3 inch layer suppresses weeds and holds moisture without smothering roots. For a seasonal refresh over existing mulch, 1 inch is usually enough."
+          "Measure each bed's length and width in feet and multiply for the area. Multiply by the depth you want, converted to feet (3 inches = 0.25 ft), to get cubic feet. Divide by 27 for cubic yards, the unit bulk mulch is sold in. For example, a 20 × 10 ft bed at 3 inches is 200 × 0.25 = 50 cubic feet, or about 1.85 cubic yards."
         ]
       },
       {
-        "heading": "Coverage at a glance",
+        "heading": "Pick the right depth",
+        "paragraphs": [
+          "A 2–3 inch layer suppresses weeds and holds moisture without smothering roots. Go deeper than 3–4 inches and you can starve roots of oxygen and trap too much moisture. For a seasonal refresh over existing mulch that's still in good shape, 1 inch of new material is usually enough to restore color and depth."
+        ]
+      },
+      {
+        "heading": "Mulch coverage chart",
+        "table": {
+          "columns": ["Depth", "Coverage per yd³", "Bags (2 ft³) per yd³"],
+          "rows": [
+            ["1 inch", "~324 ft²", "~13.5"],
+            ["2 inches", "~162 ft²", "~13.5"],
+            ["3 inches", "~108 ft²", "~13.5"],
+            ["4 inches", "~81 ft²", "~13.5"]
+          ]
+        }
+      },
+      {
+        "heading": "Bags vs bulk",
         "bullets": [
-          "1 yd³ covers ~324 ft² at 1 inch",
-          "1 yd³ covers ~162 ft² at 2 inches",
-          "1 yd³ covers ~108 ft² at 3 inches"
+          "Bagged mulch suits small beds and is easy to transport.",
+          "Bulk delivery is far cheaper per yard once you need more than ~1 yd³.",
+          "One cubic yard equals about 13.5 standard 2-cubic-foot bags.",
+          "Keep mulch a few inches away from trunks and stems to prevent rot."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How many bags of mulch are in a yard?",
+        "answer": "About 13.5 standard 2-cubic-foot bags equal one cubic yard of mulch."
+      },
+      {
+        "question": "How deep should mulch be?",
+        "answer": "2–3 inches is ideal for weed suppression and moisture retention. Use about 1 inch for a seasonal top-up over existing mulch."
+      },
+      {
+        "question": "How much does a yard of mulch cover?",
+        "answer": "About 108 square feet at 3 inches deep, 162 ft² at 2 inches, or 324 ft² at 1 inch."
+      }
+    ],
     "related": [
+      "how-much-does-mulch-cost",
+      "mulch-vs-rock",
+      "best-time-to-mulch",
       "how-much-concrete-do-i-need"
     ]
   },
   {
     "slug": "how-much-paint-do-i-need",
-    "title": "How Much Paint Do I Need?",
-    "description": "Estimate paint by room size, coats, and openings, with coverage rates and pro tips.",
-    "answer": "To estimate paint, calculate wall area (perimeter × height), subtract about 21 sq ft per door or window, multiply by the number of coats, and divide by 350 (sq ft per gallon). A standard 12×12 ft room needs about 2 gallons for two coats.",
-    "updated": "2026-06-11",
+    "title": "How Much Paint Do I Need? (Room Calculator Guide)",
+    "description": "Estimate how much paint you need by room size, number of coats, and openings, with coverage rates and a quick reference chart.",
+    "answer": "To estimate paint, calculate wall area (perimeter × height), subtract about 21 sq ft per door or window, multiply by the number of coats, and divide by 350 (sq ft per gallon). A standard 12×12 ft room needs about 2 gallons for two coats. Rough or unprimed surfaces cover less, so buy a little extra.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Buying paint is a balancing act: run short mid-wall and you risk a visible lap mark where a fresh can blends in, but over-buy and you've got half-used cans cluttering the garage. A quick calculation based on your wall area, coats, and openings gets it right.",
+      "This guide shows how to estimate how much paint you need for any room, the coverage you can expect from a gallon, and when to plan for one coat versus two."
+    ],
+    "keyTakeaways": [
+      "Paint (gallons) = (wall area − openings) × coats ÷ 350.",
+      "One gallon covers about 350–400 ft² per coat on smooth walls.",
+      "Plan on two coats for even, durable color.",
+      "Subtract ~21 ft² per door and ~15 ft² per window.",
+      "Rough, porous, or unprimed surfaces need more paint."
+    ],
     "calculatorSlug": "paint-calculator",
     "category": "painting",
     "sections": [
       {
-        "heading": "Coverage rates",
+        "heading": "How to calculate paint",
         "paragraphs": [
-          "One gallon covers roughly 350–400 sq ft per coat on smooth, primed walls. Textured, porous, or unprimed surfaces absorb more and cover less."
+          "Find the wall area by multiplying the room's perimeter by the ceiling height. Subtract roughly 21 square feet for each door and 15 for each window. Multiply the result by the number of coats, then divide by 350 — the square feet a gallon covers. For a 12 × 12 ft room with 8 ft ceilings, that's about 384 ft² of wall, or roughly 2 gallons for two coats."
         ]
       },
       {
-        "heading": "One coat or two?",
+        "heading": "Paint coverage rates",
         "paragraphs": [
-          "Plan on two coats for durable, even color — especially over fresh drywall or when changing colors. Buy 5–10% extra so you have a dye-lot match for touch-ups."
+          "One gallon covers roughly 350–400 square feet per coat on smooth, primed walls. Textured, porous, or unprimed surfaces absorb more and cover less — sometimes as little as 250 ft² per gallon — so add a margin for those."
+        ]
+      },
+      {
+        "heading": "Paint needed by room size",
+        "table": {
+          "columns": ["Room size", "Wall area", "Gallons (2 coats)"],
+          "rows": [
+            ["10 × 10 ft", "~320 ft²", "2"],
+            ["12 × 12 ft", "~384 ft²", "2"],
+            ["15 × 20 ft", "~560 ft²", "3–4"],
+            ["Whole avg home", "—", "6–10"]
+          ]
+        }
+      },
+      {
+        "heading": "One coat or two?",
+        "bullets": [
+          "Two coats is standard for durable, even color.",
+          "Use two coats over fresh drywall or a big color change.",
+          "Prime bare drywall, patches, or stains before painting.",
+          "Buy 5–10% extra so you have a dye-lot match for touch-ups."
         ]
       }
     ],
-    "faqs": [],
+    "faqs": [
+      {
+        "question": "How much paint do I need for a 12x12 room?",
+        "answer": "About 2 gallons for two coats of wall color, before accounting for the ceiling or trim."
+      },
+      {
+        "question": "How many square feet does a gallon of paint cover?",
+        "answer": "Roughly 350–400 square feet per coat on smooth, primed walls — less on textured or unprimed surfaces."
+      },
+      {
+        "question": "Do I need primer?",
+        "answer": "Prime bare drywall, patched areas, stains, and dramatic color changes. Over previously painted walls in a similar color, a quality paint-and-primer often suffices."
+      }
+    ],
     "related": [
+      "cost-to-paint-a-house-interior",
+      "exterior-painting-cost",
+      "best-paint-finish-for-walls",
       "how-much-concrete-do-i-need"
     ]
   },
@@ -3871,40 +4277,68 @@ export const guides: GuideConfig[] = [
     "slug": "is-it-cheaper-to-pour-your-own-concrete",
     "title": "Is It Cheaper to Pour Your Own Concrete?",
     "description": "Compare the cost of DIY bagged concrete vs ordering ready-mix, and find the break-even point for your project.",
-    "answer": "For small jobs under about 1 cubic yard, pouring your own concrete with bags is usually cheaper. Above 1 cubic yard, ready-mix delivery costs less per yard and saves hours of mixing. A cubic yard is ~45 80-lb bags — past that point, bagging stops making sense.",
-    "updated": "2026-06-12",
+    "answer": "For small jobs under about 1 cubic yard, pouring your own concrete with bags is usually cheaper. Above 1 cubic yard, ready-mix delivery costs less per yard and saves hours of mixing. A cubic yard is about 45 eighty-pound bags — past that point, bagging stops making sense on cost, time, and quality.",
+    "updated": "2026-07-09",
+    "intro": [
+      "\"Is it cheaper to pour my own concrete?\" is one of the most common questions in DIY, and the honest answer is: it depends entirely on the size of the pour. For a few post holes, bags win easily. For a driveway, ordering a truck is both cheaper and better. The trick is knowing where the line falls.",
+      "This guide compares the real cost of DIY bagged concrete against ready-mix delivery — including the hidden costs of your time and mixer rental — and pinpoints the break-even point for your project."
+    ],
+    "keyTakeaways": [
+      "Under ~1 cubic yard: DIY bags are usually cheaper.",
+      "Over ~1 cubic yard: ready-mix delivery wins on cost and quality.",
+      "A cubic yard ≈ 45 eighty-pound bags of mixing and hauling.",
+      "Factor in mixer rental ($40–$80/day) and your own labor.",
+      "Large hand-mixed pours risk weak cold joints between batches."
+    ],
     "calculatorSlug": "concrete-calculator",
     "category": "concrete",
     "sections": [
       {
         "heading": "The break-even point",
         "paragraphs": [
-          "DIY bagged concrete makes sense for footings, post holes, and small pads. Once you pass roughly one cubic yard (about 45 80-lb bags), the bag cost, mixing time, and risk of cold joints make ready-mix the better deal."
+          "DIY bagged concrete makes sense for footings, post holes, and small pads. Once you pass roughly one cubic yard (about 45 eighty-pound bags), the combined bag cost, mixing time, mixer rental, and risk of cold joints make ready-mix the better deal on both price and quality."
         ]
+      },
+      {
+        "heading": "DIY bags vs ready-mix cost",
+        "table": {
+          "columns": ["Project size", "DIY bagged", "Ready-mix", "Winner"],
+          "rows": [
+            ["¼ yd³ (post holes)", "~$60–$80", "Min. delivery fee", "DIY"],
+            ["½ yd³ (small pad)", "~$130–$170", "Delivery + min charge", "DIY"],
+            ["1 yd³ (break-even)", "~$250–$320", "~$120–$165 + fees", "Toss-up"],
+            ["3+ yd³ (slab/driveway)", "Impractical", "$120–$165 / yd³", "Ready-mix"]
+          ]
+        }
       },
       {
         "heading": "What DIY really costs",
         "bullets": [
-          "Bags: ~$5–$7 each (80 lb yields 0.6 ft³)",
-          "Mixer rental: $40–$80/day",
-          "Your time: hours of mixing and hauling"
+          "Bags: about $5–$7 each (an 80-lb bag yields ~0.6 ft³).",
+          "Mixer rental: $40–$80 per day if you don't hand-mix.",
+          "Your time: hours of mixing, hauling, and cleanup.",
+          "Quality risk: cold joints if batches aren't placed fast enough."
         ]
       },
       {
         "heading": "When to order ready-mix",
         "paragraphs": [
-          "For slabs, driveways, and anything over a cubic yard, ready-mix arrives premixed and consistent, and usually costs $120–$165 per yard delivered. Use the calculator to see exactly how many yards (or bags) your project needs."
+          "For slabs, driveways, and anything over a cubic yard, ready-mix arrives premixed and consistent, and usually costs $120–$165 per yard delivered plus a short-load or delivery fee. It pours in one continuous placement, avoiding the cold joints that plague large hand-mixed jobs. Use the concrete calculator to see exactly how many yards — or bags — your project needs before you decide."
         ]
       }
     ],
     "faqs": [
       {
         "question": "How many bags of concrete make a yard?",
-        "answer": "About 45 80-lb bags or 60 60-lb bags equal one cubic yard."
+        "answer": "About 45 eighty-pound bags or 60 sixty-pound bags equal one cubic yard."
       },
       {
         "question": "Is hand-mixing concrete strong enough?",
-        "answer": "Yes, if mixed to the right consistency — but it's slow and risks weak cold joints on larger pours."
+        "answer": "Yes, if mixed to the right consistency — but it's slow and risks weak cold joints on larger pours where batches can't be placed fast enough."
+      },
+      {
+        "question": "At what size should I order ready-mix?",
+        "answer": "Around one cubic yard. Below that, bags are cheaper and convenient; above it, ready-mix costs less per yard and gives a stronger, continuous pour."
       }
     ],
     "related": [
@@ -4335,41 +4769,78 @@ export const guides: GuideConfig[] = [
   },
   {
     "slug": "roof-replacement-cost",
-    "title": "How Much Does a Roof Replacement Cost?",
-    "description": "2026 roof replacement costs by material and home size, plus what drives the price up or down.",
-    "answer": "A typical asphalt-shingle roof replacement costs about $5,000–$12,000 for an average home, or roughly $400–$700 per roofing square (100 sq ft) installed. Metal, tile, and slate cost considerably more. Pitch, removal of old layers, and your region all move the price.",
-    "updated": "2026-06-12",
+    "title": "How Much Does a Roof Replacement Cost? (2026)",
+    "description": "2026 roof replacement costs by material and home size, what drives the price up or down, and how to estimate your own roof.",
+    "answer": "A typical asphalt-shingle roof replacement costs about $5,000–$12,000 for an average home, or roughly $400–$700 per roofing square (100 sq ft) installed. Metal runs $800–$1,400 per square and tile or slate $1,000–$2,000. Roof pitch, tearing off old layers, and your region all move the price.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Replacing a roof is one of the biggest single home expenses most owners face, and the quotes can vary wildly for the same house. Understanding what you're paying for — material, roof size, tear-off, and labor — lets you compare bids fairly and spot an inflated one.",
+      "This guide breaks down roof replacement costs in 2026 by material and home size, explains what pushes the price up or down, and shows how to estimate your own roof in squares before the estimators arrive."
+    ],
+    "keyTakeaways": [
+      "Average asphalt roof replacement: $5,000–$12,000.",
+      "Asphalt runs $400–$700 per square; metal and tile cost far more.",
+      "Most homes have 15–25 roofing squares.",
+      "Tear-off of old layers, steep pitch, and region raise the price.",
+      "Get your roof size in squares first, then multiply by the installed rate."
+    ],
     "calculatorSlug": "roofing-calculator",
     "category": "roofing",
     "sections": [
       {
-        "heading": "Cost by material",
-        "bullets": [
-          "Asphalt shingles: $400–$700/square",
-          "Metal: $800–$1,400/square",
-          "Tile/slate: $1,000–$2,000/square"
-        ]
+        "heading": "Roof replacement cost by material",
+        "paragraphs": [
+          "Material is the biggest price lever. Asphalt shingles dominate because they're affordable and reliable, but premium materials last decades longer for a much higher upfront cost."
+        ],
+        "table": {
+          "columns": ["Material", "Cost per square (installed)", "Avg home (20 sq)", "Lifespan"],
+          "rows": [
+            ["Asphalt shingles", "$400 – $700", "$8,000 – $14,000", "15–30 yrs"],
+            ["Standing-seam metal", "$800 – $1,400", "$16,000 – $28,000", "40–70 yrs"],
+            ["Clay/concrete tile", "$1,000 – $2,000", "$20,000 – $40,000", "50+ yrs"],
+            ["Slate", "$1,500 – $3,000", "$30,000+", "75–100 yrs"]
+          ]
+        }
       },
       {
         "heading": "What drives the price",
         "paragraphs": [
-          "Steeper and cut-up roofs cost more to work on, tearing off multiple old layers adds labor, and local wages vary widely. Get your roof's size in squares first, then multiply by the installed rate."
+          "Beyond material, several factors swing the total. Steeper and cut-up roofs with valleys and dormers are slower and less safe to work on, raising labor. Tearing off two or three old layers adds disposal and time. Structural repairs to decking, new flashing, and premium underlayment add up, and local labor rates vary widely by region."
+        ],
+        "bullets": [
+          "Roof pitch — steep roofs need staging and cost more per square.",
+          "Tear-off — removing old layers adds labor and dump fees.",
+          "Decking repairs — rotted sheathing must be replaced before shingling.",
+          "Accessories — flashing, ridge vent, drip edge, and underlayment.",
+          "Region — labor rates differ significantly by market."
+        ]
+      },
+      {
+        "heading": "How to estimate your roof",
+        "paragraphs": [
+          "Roofers price by the square (100 sq ft of roof surface). Measure your home's footprint, multiply by a pitch factor for the slope, and divide by 100 to get squares — then multiply by the installed rate for your material. Our roofing calculator does this automatically so you can sanity-check any quote."
         ]
       }
     ],
     "faqs": [
       {
         "question": "How many squares is an average roof?",
-        "answer": "Most homes have 15–25 roofing squares (1,500–2,500 sq ft of roof surface)."
+        "answer": "Most homes have 15–25 roofing squares, which is 1,500–2,500 sq ft of actual roof surface once pitch is factored in."
       },
       {
         "question": "Does a steeper roof cost more?",
-        "answer": "Yes — steeper pitches are slower and less safe to work on, raising labor costs."
+        "answer": "Yes — steeper pitches are slower and less safe to work on, which raises labor costs and often the material needed."
+      },
+      {
+        "question": "Is it cheaper to reroof over old shingles?",
+        "answer": "Layering over is cheaper short-term because it skips tear-off, but it traps heat, hides deck problems, and shortens the new roof's life. A full tear-off is usually the better long-term value."
       }
     ],
     "related": [
       "how-to-measure-a-roof",
-      "how-much-concrete-do-i-need"
+      "3-tab-vs-architectural-shingles",
+      "metal-roof-cost",
+      "how-long-does-a-roof-last"
     ]
   },
   {
@@ -4589,36 +5060,69 @@ export const guides: GuideConfig[] = [
     "slug": "vinyl-vs-fiber-cement-siding",
     "title": "Vinyl vs Fiber Cement Siding: Cost & Pros and Cons",
     "description": "Compare vinyl and fiber-cement siding on cost, durability, maintenance, and looks.",
-    "answer": "Vinyl siding costs about $4–$8 per square foot installed and is the cheapest, lowest-maintenance option. Fiber cement costs $6–$13 per square foot but lasts longer (30–50 years), resists fire, and looks more like real wood. Vinyl wins on price; fiber cement wins on durability.",
-    "updated": "2026-06-12",
+    "answer": "Vinyl siding costs about $4–$8 per square foot installed and is the cheapest, lowest-maintenance option. Fiber cement costs $6–$13 per square foot but lasts longer (30–50 years), resists fire, and looks more like real wood. Vinyl wins on price and easy upkeep; fiber cement wins on durability, fire resistance, and resale value.",
+    "updated": "2026-07-09",
+    "intro": [
+      "Vinyl and fiber cement are the two most popular siding choices for good reason — both are durable, attractive, and far lower maintenance than wood. But they suit different priorities, and choosing wrong means either overpaying or settling for less longevity than your climate demands.",
+      "This guide compares vinyl and fiber-cement siding head-to-head on cost, durability, maintenance, appearance, and climate fit, so you can pick the right material for your home and budget."
+    ],
+    "keyTakeaways": [
+      "Vinyl: $4–$8/ft² installed, 20–40 year life, lowest maintenance.",
+      "Fiber cement: $6–$13/ft², 30–50 year life, fire-resistant.",
+      "Vinyl is the budget and DIY-friendly choice.",
+      "Fiber cement looks most like real wood and boosts resale value.",
+      "Fiber cement is preferred in fire-prone and high-humidity regions."
+    ],
     "calculatorSlug": "siding-calculator",
     "category": "siding",
     "sections": [
       {
-        "heading": "Cost comparison",
-        "bullets": [
-          "Vinyl: $4–$8/ft² installed, 20–40 yr life",
-          "Fiber cement: $6–$13/ft² installed, 30–50 yr life"
+        "heading": "Vinyl vs fiber cement at a glance",
+        "paragraphs": [
+          "The clearest comparison lines up the two across the factors that matter most for a siding decision — cost, lifespan, upkeep, and looks."
+        ],
+        "table": {
+          "columns": ["Factor", "Vinyl", "Fiber cement"],
+          "rows": [
+            ["Installed cost", "$4 – $8 / ft²", "$6 – $13 / ft²"],
+            ["Lifespan", "20–40 years", "30–50 years"],
+            ["Maintenance", "Rinse only", "Repaint every 10–15 yrs"],
+            ["Fire resistance", "Melts / burns", "Non-combustible"],
+            ["Appearance", "Good, plastic-like", "Best wood look"],
+            ["Resale impact", "Neutral", "Strong"]
+          ]
+        }
+      },
+      {
+        "heading": "Cost and maintenance",
+        "paragraphs": [
+          "Vinyl is cheaper to buy and install, and it never needs painting — a quick rinse keeps it looking fresh. Fiber cement costs more upfront and is heavier and slower to install, and while it holds paint far longer than wood, it does need repainting every 10–15 years. Factor that recurring cost into the lifetime comparison."
         ]
       },
       {
         "heading": "Which should you choose?",
         "paragraphs": [
-          "Choose vinyl for the lowest up-front cost and easy maintenance. Choose fiber cement for durability, fire resistance, and a premium wood look that boosts resale value — common in fire-prone and high-end markets."
+          "Choose vinyl for the lowest up-front cost and truly hands-off maintenance — it's the pragmatic pick for most budgets. Choose fiber cement for maximum durability, fire resistance, and a premium wood look that boosts resale value. Fiber cement is especially worth the premium in fire-prone regions, hurricane zones, and humid climates where its impact and moisture resistance pay off."
         ]
       }
     ],
     "faqs": [
       {
         "question": "Is fiber cement worth the extra cost?",
-        "answer": "If you want longevity, fire resistance, and a wood look, yes. For pure budget, vinyl is hard to beat."
+        "answer": "If you want longevity, fire resistance, and a genuine wood look that lifts resale value, yes. For pure budget and zero repainting, vinyl is hard to beat."
       },
       {
         "question": "Which siding lasts longer?",
-        "answer": "Fiber cement lasts 30–50 years vs 20–40 for vinyl, and resists impact and fire better."
+        "answer": "Fiber cement lasts 30–50 years versus 20–40 for vinyl, and it resists impact, fire, and moisture better."
+      },
+      {
+        "question": "Does fiber cement need painting?",
+        "answer": "Yes — it holds paint far longer than wood but typically needs repainting every 10–15 years. Vinyl's color is molded in and never needs paint."
       }
     ],
     "related": [
+      "how-much-does-siding-cost",
+      "best-siding-for-cold-climates",
       "cost-to-insulate-a-house",
       "how-much-concrete-do-i-need"
     ]
@@ -4895,24 +5399,37 @@ export const guides: GuideConfig[] = [
       },
       {
         heading: "When to choose wood",
-        paragraphs: ["Choose wood for the lowest up-front cost and a genuine natural look. Pressure-treated is cheapest; cedar and redwood cost more but resist rot better. The trade-off is yearly sealing or staining."],
+        paragraphs: [
+          "Choose wood for the lowest up-front cost and a genuine natural look and feel that many homeowners still prefer. Pressure-treated pine is the cheapest option and structurally sound; cedar and redwood cost more but naturally resist rot and insects while aging to an attractive silver-gray if left unsealed.",
+          "The trade-off is maintenance. Wood needs cleaning and a fresh coat of sealer or stain every year or two to prevent cracking, warping, and rot. If you enjoy that upkeep — or want the lowest possible starting price — wood is the pick.",
+        ],
       },
       {
         heading: "When to choose composite",
-        paragraphs: ["Choose composite if you'd rather not maintain the deck. It resists rot, insects, and fading, needs only occasional washing, and lasts decades — worth the higher price for many homeowners."],
+        paragraphs: [
+          "Choose composite if you'd rather spend weekends on the deck than maintaining it. Made from wood fibers and recycled plastic, composite resists rot, insects, staining, and fading, and never needs sealing — an occasional wash with soap and water keeps it looking new for decades.",
+          "The downsides are a higher up-front price and the fact that darker boards can get hot in direct sun. For most homeowners planning to stay put, the low maintenance and 25–30 year lifespan justify the premium.",
+        ],
+      },
+      {
+        heading: "Lifetime cost: the real comparison",
+        paragraphs: [
+          "Comparing only the sticker price is misleading. Wood costs less to build but adds up over time through stain, sealer, and the labor to apply them every year or two — plus board replacement as pieces rot or split. Composite costs more to install but its maintenance is close to zero. Over a 25-year horizon, the gap between the two narrows dramatically, and composite often comes out ahead once you count your time and materials.",
+        ],
       },
       {
         heading: "Estimate either option",
-        paragraphs: ["Our deck calculator estimates boards, framing, and cost for whichever material you choose."],
+        paragraphs: ["Our deck calculator estimates the deck boards, joists, fasteners, and installed cost for whichever material you choose, so you can compare wood and composite for your exact deck size before you buy."],
       },
     ],
     calculatorSlug: "deck-calculator",
     faqs: [
-      { question: "Is composite decking cheaper than wood?", answer: "No — composite costs more up front, but it saves on maintenance and lasts longer, so it can be cheaper over its lifetime." },
-      { question: "Does composite decking get hot?", answer: "Yes, dark composite can get hot in direct sun. Lighter colors and shaded areas stay cooler." },
-      { question: "Which lasts longer, wood or composite?", answer: "Composite lasts 25–30 years versus 10–20 for wood, with far less maintenance." },
+      { question: "Is composite decking cheaper than wood?", answer: "No — composite costs more up front, but it saves on maintenance and lasts longer, so it can be cheaper over its full lifetime." },
+      { question: "Does composite decking get hot?", answer: "Yes, dark composite can get hot in direct sun. Lighter colors and shaded areas stay noticeably cooler underfoot." },
+      { question: "Which lasts longer, wood or composite?", answer: "Composite lasts 25–30 years versus 10–20 for wood, with far less maintenance along the way." },
+      { question: "Does composite decking add resale value?", answer: "It can. Buyers often value a low-maintenance composite deck, and its like-new appearance after years of use helps curb appeal." },
     ],
-    related: ["deck-cost"],
+    related: ["deck-cost", "wood-vs-vinyl-fence"],
   },
   {
     slug: "fence-cost",
@@ -5014,24 +5531,37 @@ export const guides: GuideConfig[] = [
       },
       {
         heading: "When to choose wood",
-        paragraphs: ["Choose wood for the lowest up-front cost and a natural, customizable look you can stain any color. The trade-off is regular sealing and eventual replacement of warped or rotted boards."],
+        paragraphs: [
+          "Choose wood for the lowest up-front cost and a natural, customizable look you can stain or paint any color to match your home. Cedar and pressure-treated pine are the common choices — cedar resists rot naturally, while treated pine is cheapest.",
+          "The trade-off is upkeep. Wood fences need cleaning and a fresh coat of stain or sealer every two to three years, and individual boards warp, split, or rot over time and need replacing. Budget for that ongoing cost and effort.",
+        ],
       },
       {
         heading: "When to choose vinyl",
-        paragraphs: ["Choose vinyl if you want a fence you can forget about — it won't rot, warp, or need painting, and it lasts longer. It costs more up front and offers fewer style options than wood."],
+        paragraphs: [
+          "Choose vinyl if you want a fence you can install and forget. It won't rot, warp, splinter, or need painting, and a quick rinse with a hose restores its finish. Vinyl also holds up well against moisture and insects that degrade wood.",
+          "The downsides are a higher up-front price and fewer style options — vinyl comes in a limited palette of colors and profiles, and a cracked panel can be harder to color-match than replacing a single wood board.",
+        ],
+      },
+      {
+        heading: "Lifetime cost and value",
+        paragraphs: [
+          "Wood's lower installation price is partly offset over the years by stain, sealer, and the labor to maintain it, plus board replacement. Vinyl costs more to install but its near-zero maintenance means the two materials land closer together over a 20-year span. If you plan to stay in the home long-term, vinyl's durability often makes it the better value; if you want the lowest starting cost or a specific stained look, wood wins.",
+        ],
       },
       {
         heading: "Estimate either option",
-        paragraphs: ["Our fence calculator estimates posts, rails, concrete, and cost for whichever material you choose."],
+        paragraphs: ["Our fence calculator estimates the posts, rails, concrete, and installed cost for whichever material you choose, so you can compare wood and vinyl for your exact fence line before buying."],
       },
     ],
     calculatorSlug: "fence-calculator",
     faqs: [
-      { question: "Is vinyl fence cheaper than wood?", answer: "No — vinyl costs more up front, but it needs less maintenance and lasts longer, so it can be cheaper over time." },
-      { question: "Does vinyl fencing last longer than wood?", answer: "Yes, vinyl lasts 20–30 years versus 15–20 for wood, with almost no maintenance." },
-      { question: "Which is better, wood or vinyl fence?", answer: "Wood is cheaper and more natural; vinyl is lower-maintenance and longer-lasting. It depends on your budget and upkeep preference." },
+      { question: "Is vinyl fence cheaper than wood?", answer: "No — vinyl costs more up front, but it needs less maintenance and lasts longer, so it can be cheaper over its full lifetime." },
+      { question: "Does vinyl fencing last longer than wood?", answer: "Yes, vinyl lasts 20–30 years versus 15–20 for wood, with almost no maintenance in between." },
+      { question: "Which is better, wood or vinyl fence?", answer: "Wood is cheaper and more natural; vinyl is lower-maintenance and longer-lasting. It comes down to your budget and how much upkeep you're willing to do." },
+      { question: "Does a vinyl fence add value to a home?", answer: "A clean, low-maintenance vinyl fence can appeal to buyers, though a well-kept wood privacy fence also adds curb appeal. Condition matters more than material at resale." },
     ],
-    related: ["fence-cost"],
+    related: ["fence-cost", "composite-vs-wood-decking"],
   }
 ];
 

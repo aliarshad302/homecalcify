@@ -74,6 +74,43 @@ export function HubPage({ hub }: { hub: HubConfig }) {
         </ul>
       </section>
 
+      {/* Long-form editorial body */}
+      {hub.body && hub.body.length > 0 && (
+        <section className="prose-page mt-10 max-w-3xl">
+          {hub.body.map((s, i) => (
+            <div key={i}>
+              <h2>{s.heading}</h2>
+              {s.paragraphs?.map((p, j) => <p key={j}>{p}</p>)}
+              {s.bullets && (
+                <ul>
+                  {s.bullets.map((b, j) => <li key={j}>{b}</li>)}
+                </ul>
+              )}
+              {s.table && (
+                <div className="not-prose my-4 overflow-x-auto rounded-lg border">
+                  <table className="w-full border-collapse text-sm">
+                    <thead>
+                      <tr className="bg-muted/60">
+                        {s.table.columns.map((c) => <th key={c} className="px-4 py-3 text-left font-semibold">{c}</th>)}
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {s.table.rows.map((row, ri) => (
+                        <tr key={ri} className="border-t">
+                          {row.map((cell, ci) => (
+                            <td key={ci} className={ci === 0 ? "px-4 py-3 font-medium text-foreground" : "px-4 py-3 text-muted-foreground"}>{cell}</td>
+                          ))}
+                        </tr>
+                      ))}
+                    </tbody>
+                  </table>
+                </div>
+              )}
+            </div>
+          ))}
+        </section>
+      )}
+
       <AdSlot slotId="0000000010" format="in-article" />
 
       {/* Guides */}
