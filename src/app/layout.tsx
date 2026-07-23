@@ -37,6 +37,8 @@ export const metadata: Metadata = {
   },
   // AdSense ownership verification (renders <meta name="google-adsense-account">).
   other: { "google-adsense-account": "ca-pub-9239647072635918" },
+  // Google Search Console ownership verification.
+  verification: { google: "LcyZNUNTY0RjDXwiOKP0MJyFlCY7zmLwRZb9ByUysSA" },
 };
 
 // Google AdSense publisher ID. Public value — safe to ship in the client bundle.
